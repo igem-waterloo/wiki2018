@@ -8,7 +8,20 @@ Special thanks to Waterloo iGEM member Jyler Menard for finding many of the pape
 
 The original idea for optogenetically controlled co-cultures was developed by the Math co-lead Cody Receno as part of the BIOL 349 (Synthetic Biology Project Design) course, co-taught by Trevor Charles and Brian Ingalls.
 
+## Advisors
+
+We would like to give a huge thank you to all the advisors of the Waterloo iGEM Team. They have helped the team immensely over the years and we can not be more grateful. From things like giving feedback on potential projects, troubleshooting, finances, and even networking-- all of the advisors were very helpful.
+
+* Barb Moffatt
+* Brian Ingalls
+* Trevor Charles
+* Andrew Doxey
+* Marc Aucoin
+* Valerie Ward
+* Tenzing Kuyee
+
 ## Interlab 
+
 We would like to extend our most sincere gratitude to Prof. Raymond Legge (Dept. of Chemical Engineering, University of Waterloo) and Andrew Assatory, a graduate student working under Prof. Legge. These results would not have been possible without their assistance. Prof. Legge kindly allowed us to use his BioTek Synergy 4 plate reader on very short notice, and Andrew accommodated our use of the plate reader into his busy schedule.
 
 ## Administrative Help
@@ -36,5 +49,9 @@ We would like to give thanks to Mark Soric, Brian Ingalls, and Matt Scott for al
 ## General Support
 
 Thank you to Nathan Branff for providing us with support and knowledge regarding optogenetics and mathematical models.
+
+## Sponsors
+
+
 
 

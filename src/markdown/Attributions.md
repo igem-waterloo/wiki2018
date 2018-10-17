@@ -28,7 +28,7 @@ We would like to extend our most sincere gratitude to Professor Raymond Legge (D
 
 Lucy Satora - Provided help with administrative and shipment for the team
 
-Jen Lehman - Provided help with finances, accessing funds, and booking of hotels for the Waterloo iGEM team.
+Jen Lehman - Provided help with finances, accessing funds, and booking of hotels for the Waterloo iGEM team
 
 ## Co-op Student
 
@@ -36,7 +36,7 @@ Waterloo iGEM member Nicole Lassel was a co-op student in the Waterloo iGEM lab 
 
 ## Conferences
 
-Thank you to Western University’s Bogumil Karas for allowing member of the Waterloo iGEM team to speak about iGEM and our project at the Western Syn Bio Symposium 3.0
+Thank you to Western University’s Bogumil Karas for allowing member of the Waterloo iGEM team to speak about iGEM and our project at the Western Syn Bio Symposium 3.0.
 
 ## Wiki and Logo Development
 

@@ -12,9 +12,6 @@
 #### Antibiotic Resistance(s)
 - Kanamycin
 
-#### Growth Rate 
-- 
-
 #### Fluorescent Marker 
 - None
 
@@ -28,6 +25,7 @@
 ## JT2 - CcaS/R
 
 ![JT2 CcaS/R](http://2018.igem.org/wiki/images/a/a9/T--Waterloo--MeetMicro_JT2CcaSR.png) 
+
 #### Strain 
 - _Escherichia coli_ [JT2 SKA974](https://www.addgene.org/80403/) 
 This strain has been engineered for optogenetic control using CcaS/R. Its genomic MetE gene is under control of the CcaS/R promoter. It also has a Kanamycin resistance gene in its genome. 
@@ -69,9 +67,6 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 #### Antibiotic Resistance(s)
 - None
 
-#### Growth Rate 
-- 
-
 #### Fluorescent Marker 
 - None
 
@@ -83,7 +78,8 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 
 ## DH5alpha - GFP
 
-![DH5 GFP]()
+![DH5 GFP](http://parts.igem.org/wiki/images/9/99/T--Waterloo--DH5alpha-GFP.png)
+
 ### Strain 
 - _Escherichia coli_ DH5alpha
 

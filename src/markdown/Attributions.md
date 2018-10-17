@@ -22,13 +22,13 @@ We would like to give a huge thank you to all the advisors of the Waterloo iGEM 
 
 ## Interlab 
 
-We would like to extend our most sincere gratitude to Prof. Raymond Legge (Dept. of Chemical Engineering, University of Waterloo) and Andrew Assatory, a graduate student working under Prof. Legge. These results would not have been possible without their assistance. Prof. Legge kindly allowed us to use his BioTek Synergy 4 plate reader on very short notice, and Andrew accommodated our use of the plate reader into his busy schedule.
+We would like to extend our most sincere gratitude to Professor Raymond Legge (Department of Chemical Engineering, University of Waterloo) and Andrew Assatory, a graduate student working under Professor Legge. These results would not have been possible without their assistance. Professor Legge kindly allowed us to use his BioTek Synergy 4 plate reader on very short notice, and Andrew accommodated our use of the plate reader into his busy schedule. Professor Josh Neufeld (Department of Biology, University of Waterloo) aided us by providing a plate reader for the first attempt of following the Interlab protocol.  
 
 ## Administrative Help
 
 Lucy Satora - Provided help with administrative and shipment for the team
 
-Jen Lehman - Provided help with finances, accessing funds, and booking of hotels for the Waterloo iGEM team.
+Jen Lehman - Provided help with finances, accessing funds, and booking of hotels for the Waterloo iGEM team
 
 ## Co-op Student
 
@@ -36,7 +36,7 @@ Waterloo iGEM member Nicole Lassel was a co-op student in the Waterloo iGEM lab 
 
 ## Conferences
 
-Thank you to Western University’s Bogumil Karas for allowing member of the Waterloo iGEM team to speak about iGEM and our project at the Western Syn Bio Symposium 3.0
+Thank you to Western University’s Bogumil Karas for allowing member of the Waterloo iGEM team to speak about iGEM and our project at the Western Syn Bio Symposium 3.0.
 
 ## Wiki and Logo Development
 
@@ -53,5 +53,8 @@ Thank you to Nathan Branff for providing us with support and knowledge regarding
 ## Sponsors
 
 
+Thank you to our sponsors for supporting the work of the 2018 Waterloo iGEM team. This project is thanks to the funding and support received by them.
+
+![sponsors](http://2018.igem.org/wiki/images/9/99/T--Waterloo--sponsors.png "Sponsors for Waterloo iGEM 2017")
 
 

@@ -18,8 +18,8 @@
     <div>
       <div class="ip-group-wrapper">
         <div class="memberList row" v-for="memberPair in memberPairs">
-            <div class="col-sm-3">
-            <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + memberPair[0].picture + ')' }"></div>
+          <div class="col-sm-3">
+	    <div class="circle" v-bind:style="{ backgroundImage: 'url(' + memberPair[0].picture + ')' }"></div>
           </div>
           <div class="col-sm-3">
             <div class="teamMemberInfo">
@@ -29,7 +29,7 @@
             </div>
           </div>
 	  <div class="col-sm-3" v-if="memberPair.length > 1">
-            <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + memberPair[1].picture + ')' }"></div>
+	    <div class="circle" v-bind:style="{ backgroundImage: 'url(' + memberPair[1].picture + ')' }"></div>
           </div>
 	  <div class="col-sm-3" v-if="memberPair.length > 1">
             <div class="teamMemberInfo">

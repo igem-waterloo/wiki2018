@@ -40,9 +40,6 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 - Spectinomycin
 - Chloramphenicol 
 
-#### Growth Rate 
-- 
-
 #### Fluorescent Marker 
 - GFP in the characterization version of this strain, only expressed when CcaS/R is activated.
 
@@ -53,6 +50,7 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 - Is methionine shared between cells? 
 - What is the metabolic load of (over)expressing MetE?
 - Can we control growth with red and green light? 
+
 
 ## Empty DH5alpha
 
@@ -90,9 +88,6 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 ### Antibiotic Resistance(s)
 - Spectinomycin
 - Chloramphenicol 
-
-### Growth Rate 
-- 
 
 ### Fluorescent Marker 
 - GFP, constitutively expressed. 

@@ -126,17 +126,13 @@ These results lead us to believe that the flow cytometer is representative of po
 
 Four sample tubes of JT2 CcaS/R-containing cells in M9 were made, and all were placed in the turbidostat.  The samples were made by inoculating the cells off a plate into complete M9 made with casamino acids as the amino acid source.
 
-Two samples were grown under only red light, and two under only green light.  The samples were optically insulated from each other.  The cells were allowed to grow for 3 hours to acclimatize them to the light conditions they were being kept under.  By defining the time of the first OD measurement as time 0, the following trend of OD versus time was obtained (the first time point was excluded because OD was measured incorrectly at that time):
+Two samples were grown under only red light, and two under only green light.  The samples were optically insulated from each other.  The cells were allowed to grow for 3 hours to acclimatize them to the light conditions they were being kept under.
 
-![alt text](http://2018.igem.org/wiki/images/5/58/T--Waterloo--August21_ODvsTime.png)
+Unfortunately, though the doubling times for the two green-light samples were 53.8 and 55.8 minutes, the doubling times for the samples grown under red light were 45.3 and 61.2 minutes. The red-light sample doubling times were too far apart to be averaged reasonably, and therefore no conclusion could be drawn from the experiment.
 
-Upon converting this data to instantaneous growth rate over time, it became clear that doubling time was changing gradually but appreciably as OD increased.  Therefore, to analyze the data, instantaneous doubling time was plotted against OD.  The following graph was attained:
+Additionally, the team realized that the metabolic load of MetE may be different in media made with casamino acids versus media made with an amino acid mixture without methionine. Therefore, the experiment was not repeated and estimates of metabolic load would henceforth only be obtained by observing growth rates under different light conditions in M9 made without methionine.
 
-![alt text](http://2018.igem.org/wiki/images/5/59/T--Waterloo--August21_doublingTimeVsOD.png)
-
-Though it is unfortunate that doubling time increases with OD, the general trend appears to be approximately the same regardless of light conditions.  Therefore, it was determined that the metabolic load of MetE expression was negligible if it existed at all.  See pages 77 to 79 in the online lab book for additional details.
-
-NOTE: The increase of doubling time with OD was most likely a result of bad stirring, and hence poor aeration, of the samples in the turbidostat.  This can be avoided in the future.
+See pages 77 to 79 in the online lab book for additional details.
 
 # “Robot” Experiments
 

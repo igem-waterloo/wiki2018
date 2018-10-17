@@ -53,5 +53,8 @@ Thank you to Nathan Branff for providing us with support and knowledge regarding
 ## Sponsors
 
 
+Thank you to our sponsors for supporting the work of the 2018 Waterloo iGEM team. This project is thanks to the funding and support received by them.
+
+![Sponsors for Waterloo iGEM 2018]({{image "sponsors" "directlink" mode}})
 
 

@@ -11,6 +11,8 @@
 
 **Can produce methionine?** No 
 
+
+
 ## JT2 - CcaS/R
 <img align="right" width = "40%" src="http://2018.igem.org/wiki/images/a/a9/T--Waterloo--MeetMicro_JT2CcaSR.png">
 
@@ -28,6 +30,8 @@
 
 **Can produce methionine?** Yes, but only when CcaS/R is activated. 
 
+
+
 ## Empty DH5alpha
 <img align="left" width = "40%" src="http://2018.igem.org/wiki/images/9/92/T--Waterloo--MeetMicro_dh5.png">
 
@@ -40,6 +44,8 @@
 **Fluorescent Marker** None
 
 **Can produce methionine?** Yes, with wild type genomic MetE gene. 
+
+
 
 ## DH5alpha - GFP
 

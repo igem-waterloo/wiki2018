@@ -20,7 +20,7 @@ Our system utlizes the CcaS/CcaR System as an optogenetic switch. When exposed t
 
 \\[\textrm{Logistic}(t) =  \left( A+\frac{K-A}{(1+Qe^{-\beta t})^{1/\nu}} \right)\\]
 
-<center>All parameters excluding \\(t\\) (being time) are parameters which are up to experiment. Q can be determined *a priori* based on the goals of our experiment, being specifically is related to our boundary conditions. </center>
+<center>All parameters excluding \\(t\\) (being time) are parameters which are arbitrary up to experiment. Q can be determined *a priori* based on the goals of our experiment, as it is specifically is related to our boundary conditions. </center>
 
 \\[ \frac{d\textrm{MetE}(t)}{dt} = \textrm{Logistic}\_{1} (t) \cdot \textrm{CcaR}_{a}(H(t - \tau_2)\cdot |t|) \\]
 

@@ -29,8 +29,6 @@
 
 # <center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png"/></center> Integrated Human Practices <center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png"/></center>
 
-<center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png"/></center>
-
 ### Design Milestones
 
 &nbsp;&nbsp;&nbsp;&nbsp;As a team competing in the New Application track, it is often difficult to design a project that caters to stakeholders in one specific area or sector. For this reason, our team felt that it would be more impactful to design a co-culture system that provides a foundation that people in all areas can easily build upon. This goal helped drive our work with Integrated Human Practices, and resulted in the design of a multi-purpose tool that gives industries and researchers alike an opportunity to expand on our work into their own spaces. 

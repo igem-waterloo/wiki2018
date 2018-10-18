@@ -28,7 +28,7 @@ We also take extreme care not to put any chemicals down the drain and contaminat
 Overall, our lab and project had many safety features implemented in order to ensure everyone involved inside and outside of the lab were kept safe. 
 
 # Safe Project Design
-Regarding our project, we had non-pathogenic chassis’ consisting of Escherichia coli (E. coli) strains DH5alpha, CC118 (lambda pir), and RU1012 deltaPompC-lacZ (JT2). We wanted to reduce the risk to everyone in the lab and the surrounding community by using Biosafety Level 1 organisms. Thus, the risks and potential hazards are minimal. The parts that were chosen were also designed not to harm humans, animals, or plants. Instead, we worked with optogenetic systems, such as the cCas/cCar system, that only affected the bacteria by altering their growth using light. 
+Regarding our project, we had non-pathogenic chassis’ consisting of *Escherichia coli* (*E. coli*) strains DH5alpha, CC118 (lambda pir), and RU1012 deltaPompC-lacZ (JT2). We wanted to reduce the risk to everyone in the lab and the surrounding community by using Biosafety Level 1 organisms. Thus, the risks and potential hazards are minimal. The parts that were chosen were also designed not to harm humans, animals, or plants. Instead, we worked with optogenetic systems, such as the cCas/cCar system, that only affected the bacteria by altering their growth using light. 
 
 # Safe Shipment
 There were no safety problems with shipping the DNA parts to the Registry. 

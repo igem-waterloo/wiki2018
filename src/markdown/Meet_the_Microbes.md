@@ -74,11 +74,7 @@ ________________
 
 
 
-
-
 _________________________
-
-
 
 
 <img align="left" src="http://2018.igem.org/wiki/images/9/92/T--Waterloo--MeetMicro_dh5.png">

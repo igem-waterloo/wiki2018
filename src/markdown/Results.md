@@ -155,13 +155,13 @@ _Red light was on for 100% of the 7.3h run for all samples_
 
 For each green light ratio, two tubes of M9 (without methionine) were inoculated with JT2 cells with CcaS/R from an overnight culture in LB. All tubes were then grown in the turbidostat under one of the three green light conditions for 7.3 hours. 
 
-[PLACE IMAGE OF TUBES IN TURBS]
+<img src="http://2018.igem.org/wiki/images/d/d5/T--Waterloo--Lab-turb2.jpeg">
 
 The first three hours of the run were dedicated to adjusting the cultures to their designated light condition. This was done to prevent any noise from previous growing environment of the cells (such as light contamination) [1] from effecting our measurements.
 
 Once three hours had passed we began to monitor our cultures using OD<sub>600</sub> measurements in intervals of 20 min for 4.3 hours. Below outlines those measurements:
 
-[PLACE CHART HERE]
+<img src="http://2018.igem.org/wiki/images/0/02/T--Waterloo--Lab-chart.png">
 
 The doubling time of each population was determined by plotting log OD 600 values against time in minutes and taking the slope of the linear portion of the curve. Here are the growth curves for each of the samples and the doubling times we calculated from them:
 

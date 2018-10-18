@@ -18,7 +18,7 @@ We would like to give a huge thank you to all the advisors of the Waterloo iGEM 
 * Dr. Andrew Doxey
 * Dr. Marc Aucoin
 * Dr. Valerie Ward
-* Dr. Tenzing Kuyee
+* Tenzing Kuyee
 
 ## Interlab 
 

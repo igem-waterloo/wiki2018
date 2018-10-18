@@ -1,4 +1,4 @@
-# <center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center> Human Practices <center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center>
+## <center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center> Human Practices <center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center>
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;This year, our Human Practices work included a combination of new project ideas, as well as carefully refined projects from previous seasons. We had a strong focus on consulting experts and our work is grouped into four major categories: Societal Considerations, Communication and Public Bias, Public Engagement, and Safety. 
@@ -27,7 +27,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Waterloo iGEM has ensured that all safety measures have been followed and improved upon from previous years. From multiple training modules being completed by each lab member to the implementation of full chemical inventory and eyewash maintenance systems, the lab was able to be productive and organized while maintaining a high level of safety. The project was designed with safety in mind as well, in order to reduce risks. To read about the full work done regarding safety for the Waterloo iGEM team, please visit the [Safety](http://2018.igem.org/Team:Waterloo/Safety) page!
 
-# <center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png"/></center> Integrated Human Practices <center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png"/></center>
+## <center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png"/></center> Integrated Human Practices <center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png"/></center>
 
 ### Design Milestones
 

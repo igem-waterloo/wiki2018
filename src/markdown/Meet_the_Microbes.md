@@ -76,7 +76,7 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 
 ## DH5alpha - GFP
 
-![DH5 GFP](http://parts.igem.org/wiki/images/9/99/T--Waterloo--DH5alpha-GFP.png)
+![DH5 GFP](http://2018.igem.org/wiki/images/c/c9/T--Waterloo--MeetMicro_GFP.png)
 
 ### Strain 
 - _Escherichia coli_ DH5alpha

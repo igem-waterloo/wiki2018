@@ -1,6 +1,6 @@
 <center><img src="http://2018.igem.org/wiki/images/8/89/T--Waterloo--HP-SC.png" /></center>
 
-# Expert Consultation
+## Expert Consultation
 
 &nbsp;&nbsp;&nbsp;&nbsp;At the University of Waterloo, we are fortunate to have strong connections with many of the professors who are always supportive of our work. This year, we reached out to professors in the Department of Biology who work in a variety of fields to gather different perspectives on our project. In addition, we were fortunate enough to have had the opportunity to speak to a representative from a biotech company in Canada. The sections below summarize our conversations throughout the year.
 <br>
@@ -17,7 +17,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;We also reached out to a biotech company in Canada to receive an industrial perspective on the uses of our project. After explaining our project to the representative, he gave us advice on where to find resources to help develop our project. Following that discussion, we talked about applications of optogenetic systems, co-culture systems, and finally applications where the two ideas are combined. A notable application that was proposed was the use of co-cultures to study fungal infections. Even in vitro, it is difficult to study the function of the fungus, so our optogenetic system can be used to slow down the growth of the fungus. This idea was further explore in the Project Application.<br><br>
 
-# Project Applications 
+## Project Applications 
 
 <center><img src="http://2018.igem.org/wiki/images/3/3b/T--Waterloo--SC-apps2.png" /></center>
 
@@ -131,7 +131,7 @@ _Figure 2. Space filling model of folded Insulin protein_
 
 
 
-# Scale-Up Challenges
+## Scale-Up Challenges
 
 &nbsp;&nbsp;&nbsp;&nbsp;The current system that exists poses challenges for scale-up in the future. Maintaining the ratio of the co-culture is effective, but requires a sample from the turbidostat to be run on a flow cytometer to observe the current ratio, and make adjustments to the light system as necessary. The frequency of these observations is dependent on how stable you want the co-culture to be, however each iteration requires about 15 mins. This poses a challenge for scaling up this process because there is no easy way to increase the frequency or speed of these observations and thus requires someone to monitor the system over long periods of time. To address the scalability of our system, we came up with an idea that would eliminate the need for someone to monitor the co-culture and that can make continuous observations (however, the automated system was not implemented this year). 
 

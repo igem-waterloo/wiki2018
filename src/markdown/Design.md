@@ -22,6 +22,14 @@ We decided to control the expression of metE in order to create our co-culturing
 
 ### Q: How do we control metE expression? 
 #### A: Via optogenetic systems. 
+We decided to use optogenetic (light-controlled) systems to regulate metE expression for a few main reasons: 
+**cheaper**
+Current methods of controlling co-cultures often involve the use of a chemical substrate. These can be costly, especially when scaled up. Light offers a cheap and simple alternative.
+**Faster**
+In order for a chemical to have an effect on a cell it must first enter that cell. This transport can be slow, especially when compared to the speed of light entering a cell. Using light will in theory speed up response of the system being controlled.
+**Dynamic**
+Light can be easily and quickly turned up and down, allowing fast, dynamic control of your target gene and, as a result, of your cell population.
+
 In order to control the expression of two cultures independently of one another, we needed two different light-activatable systems, also known as optogenetic systems. We found a CcaS/CcaS system which is activated by green light and shut off by red light, used by the Khammash Lab. [1] By putting a CcaS/CcaR-responsive promoter in front of metE, we could promote its expression with green light and slow cell growth  with red light. We decided to use this system because other research groups had verified that it worked to control the expression of MetE and  to control cell growth. [1,2]
 
 The second system that we wanted to use was a blue light activated system, so that we could control both populations independently and simultaneously. We found two systems that used blue light: the pDawn and Opto-T7 RNA polymerase systems. We prefered Opto-T7 because its response time, or the time it takes after the light is shined to start seeing an effect, is faster and closer to that of CcaS/CcaR. Therefore, we thought Opto-T7 would be a better fit with our existing red/green light system. Unfortunately, due to being unable to acquire the OptoT7 plasmids in time, we decided to use the pDawn system.

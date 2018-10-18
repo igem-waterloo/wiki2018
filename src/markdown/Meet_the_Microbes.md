@@ -16,8 +16,7 @@
 **Can produce methionine?** Yes, but only when CcaS/R is activated. 
 
 
-___________________________________
-___________________________________
+
 
 
 <img align="left" src="http://2018.igem.org/wiki/images/5/56/T--Waterloo--MeetMicro_JT2.png">
@@ -42,8 +41,6 @@ It also has a Kanamycin resistance gene in its genome.
 
 
  
-___________________________________
-___________________________________
 
 
 
@@ -62,8 +59,6 @@ ___________________________________
 **Can produce methionine?**: Yes, with wild type genomic MetE gene. 
 
 
-___________________________________
-___________________________________
 
 
 

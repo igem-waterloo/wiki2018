@@ -1,5 +1,5 @@
 ## Empty JT2
-<img align="left" src="http://2018.igem.org/wiki/images/5/56/T--Waterloo--MeetMicro_JT2.png">
+<img align="left" width = "45%" src="http://2018.igem.org/wiki/images/5/56/T--Waterloo--MeetMicro_JT2.png">
 
 #### Strain
 - _Escherichia coli_ [JT2 SKA974](https://www.addgene.org/80403/) 

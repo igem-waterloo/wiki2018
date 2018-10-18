@@ -12,7 +12,7 @@
 
 **Can produce methionine?** No 
 
-
+___________________________________
 
 ## JT2 - CcaS/R
 
@@ -32,7 +32,7 @@
 
 **Can produce methionine?** Yes, but only when CcaS/R is activated. 
 
-
+___________________________________
 
 
 ## Empty DH5alpha
@@ -49,7 +49,7 @@
 
 **Can produce methionine?** Yes, with wild type genomic MetE gene. 
 
-
+___________________________________
 
 ## DH5alpha - GFP
 

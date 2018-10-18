@@ -1,6 +1,6 @@
 # Methionine Sharing Experiment
 
-<img src="http://2018.igem.org/wiki/images/9/95/T--Waterloo--Results_MetSharing.jpg" width="100%">
+<img align="middle" src="http://2018.igem.org/wiki/images/7/78/T--Waterloo--MetShare.png">
 
 Multiple trials went underway for the growth of empty JT2 in knockout MetE media to definitively confirm that the predicted results occured in regards to CcaS/R JT2 and empty JT2 growth. As the goal of the experiment was to assure that there was no “leaking” of methionine from the CcaS/R JT2 cells when stimulated with methionine production, leaking that could support the growth of another population. The following test matrix was performed to assess the possibilty. 
 

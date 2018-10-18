@@ -1,6 +1,6 @@
 # Methionine Sharing Experiment
 
-<img align="middle" src="http://2018.igem.org/wiki/images/7/78/T--Waterloo--MetShare.png">
+<center> <img src="http://2018.igem.org/wiki/images/7/78/T--Waterloo--MetShare.png"> </center>
 
 Multiple trials went underway for the growth of empty JT2 in knockout MetE media to definitively confirm that the predicted results occured in regards to CcaS/R JT2 and empty JT2 growth. As the goal of the experiment was to assure that there was no “leaking” of methionine from the CcaS/R JT2 cells when stimulated with methionine production, leaking that could support the growth of another population. The following test matrix was performed to assess the possibilty. 
 
@@ -155,7 +155,7 @@ _Red light was on for 100% of the 7.3h run for all samples_
 
 For each green light ratio, two tubes of M9 (without methionine) were inoculated with JT2 cells with CcaS/R from an overnight culture in LB. All tubes were then grown in the turbidostat under one of the three green light conditions for 7.3 hours. 
 
-<center><img src="http://2018.igem.org/wiki/images/d/d5/T--Waterloo--Lab-turb2.jpeg">
+<center><img src="http://2018.igem.org/wiki/images/d/d5/T--Waterloo--Lab-turb2.jpeg"></center>
 
 The first three hours of the run were dedicated to adjusting the cultures to their designated light condition. This was done to prevent any noise from previous growing environment of the cells (such as light contamination) [1] from effecting our measurements.
 

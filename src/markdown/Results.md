@@ -175,3 +175,7 @@ The doubling time of each population was determined by plotting log OD 600 value
 
 In conclusion, growth of JT2 with CcaS/R is significantly slowed under red light in comparison to its growth under full or medium green light. Interestingly, JT2 in this experiment  has a faster growth rate in medium green light compared to full green light. This may indicate that metE imposes a metabolic load on our cells if overproduced. However, further experiments need to be preformed to fully confirm that this is the case. We will preform another growth curve experiment at a wider range of green light ratios in the next few days to get a better idea on why see this. 
 
+
+### What is the doubling time of JT2+CcaS/R and can we control it? 
+
+refer to our lab book for experiments regarding the doubling time of DH5alpha. Dh5alpha will be used as our competitior strain in co-culture experiments. These will be run in the next few days. Look forward to seeing our rsults at the jamb!

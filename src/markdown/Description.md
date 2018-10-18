@@ -29,7 +29,7 @@ With red light on, CcaS/R is inactive. MetE is not expresssed and methionine is 
 ![inactive](http://parts.igem.org/wiki/images/6/67/T--Waterloo--CcasR_How_it_works_Red.png)
 
 ## Fine Tune 
-Our system is not only an on/off switch. We can also fine tune growth of bacterial populations.
+Our system is not only an on/off switch. We can also fine tune growth of bacterial populations by controlling the amount of time we expose the cells to green light. In our system, red light is always on, but green light is varied depending on what we want to acheive. For instance, for a fast growth rate, we could have the green light on all the time. For a medium growth, we would have the green light on only half of the time.    
 
 # References 
 [1] A. Milias-Argeitis, M. Rullan, S. K. Aoki, P. Buchmann, and M. Khammash, “Automated optogenetic feedback control for precise and robust regulation of gene expression and cell growth,” Nature Communications, vol. 7, p. 12546, 2016.

@@ -1,20 +1,25 @@
-## Empty JT2
 
 <img align="left" src="http://2018.igem.org/wiki/images/5/56/T--Waterloo--MeetMicro_JT2.png">
 
-**Strain**: _Escherichia coli_ [JT2 SKA974](https://www.addgene.org/80403/). This strain has been engineered for optogenetic control using CcaS/R. Its genomic MetE gene is under control of the CcaS/R promoter. It also has a Kanamycin resistance gene in its genome. 
+**Strain**: _Escherichia coli_ [JT2 SKA974](https://www.addgene.org/80403/). 
+This strain has been engineered for optogenetic control using CcaS/R. Its genomic MetE gene is under control of the CcaS/R promoter. It also has a Kanamycin resistance gene in its genome. 
+
 
 **Plasmids**: None
 
-**Antibiotic Resistance(s)**: Kanamycin
+
+**Antibiotic Resistance(s)**: 
+- Kanamycin
+
 
 **Fluorescent Marker**: None
 
+
 **Can produce methionine?** No 
 
-___________________________________
 
-## JT2 - CcaS/R
+
+___________________________________
 
 <img align="left" src="http://2018.igem.org/wiki/images/a/a9/T--Waterloo--MeetMicro_JT2CcaSR.png">
 
@@ -32,10 +37,11 @@ ___________________________________
 
 **Can produce methionine?** Yes, but only when CcaS/R is activated. 
 
+
+
+
+
 ___________________________________
-
-
-## Empty DH5alpha
 
 <img align="left" src="http://2018.igem.org/wiki/images/9/92/T--Waterloo--MeetMicro_dh5.png">
 
@@ -50,8 +56,6 @@ ___________________________________
 **Can produce methionine?** Yes, with wild type genomic MetE gene. 
 
 ___________________________________
-
-## DH5alpha - GFP
 
 <img align="left" src="http://2018.igem.org/wiki/images/c/c9/T--Waterloo--MeetMicro_GFP.png">
 

@@ -25,7 +25,8 @@ ___________________________________
 
 
 **Strain**: _Escherichia coli_ [JT2 SKA974](https://www.addgene.org/80403/). 
-This strain has been engineered for optogenetic control using CcaS/R. Its genomic MetE gene is under control of the CcaS/R promoter. It also has a Kanamycin resistance gene in its genome. 
+This strain has been engineered for optogenetic control using CcaS/R. 
+Its genomic MetE gene is under control of the CcaS/R promoter. It also has a Kanamycin resistance gene in its genome. 
 
 **Plasmids**: None
 
@@ -35,6 +36,8 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 
 **Can produce methionine?** No 
 
+
+ 
 ___________________________________
 ___________________________________
 

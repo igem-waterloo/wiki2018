@@ -1,3 +1,4 @@
+<img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png" /></center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png" /></center>
 
 
 <center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center>

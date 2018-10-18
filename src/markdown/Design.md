@@ -86,6 +86,9 @@ The control of population growth is the ultimate goal of our project. First we n
 
 In order to test the first two questions we conducted an experiment. JT2 cells containing the Ccas/Ccar system were grown in M9 media without any methionine. As there was no methionine in the media, the expression of MetE was the only way the cell could get methionine. Half the population was put in the incubator with green light, while the other half was put in the incubator with red light. The population in green light should have increased growth and the population in red light should have minimal growth. If this is the case then it would be evidence that we are able to control growth with red and green light. Next we determined the doubling time of our cells under differnt green light ratios to see more precisely what the range of our control is.
 
+## Future Directions
+We've had less than a year to work on this project. We have so many more things we would like to do. Here, we describe the future directions our team hopes to take! 
+
 ## References
 
 [1] A. Milias-Argeitis, M. Rullan, S. K. Aoki, P. Buchmann, and M. Khammash, “Automated optogenetic feedback control for precise and robust regulation of gene expression and cell growth,” Nature Communications, vol. 7, p. 12546, 2016.

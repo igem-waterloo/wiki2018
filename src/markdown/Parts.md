@@ -7,4 +7,4 @@ This year, our team biobricked the MetE gene into a cassette with LacI promoter:
   <tr> 
     <td> [BBa_K2573000](http://parts.igem.org/Part:BBa_K2573000) <td> Composite <td> MetE coding sequence in cassete with LacI promoter <td> Amanda Kuang  <td> 2658 
     
-    </table>
+

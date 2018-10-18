@@ -2,7 +2,7 @@
 
 The fifth International Inter-Laboratory Measurement Study aims to collect many UV-Vis and fluorescence spectroscopy measurements of provided standards and *E. coli* carrying certain devices. By relating these data to plate counts, the Interlab study will make it easier to compare fluorescence measurements taken on different instruments, a significant improvement to synthetic biology research. 
 
-We completed three calibrations, each of which measured standardised non-living samples provided by iGEM. These calibrations established absorbance and fluorescence baselines for further measurements, and gave a way to relate absorbance to number of *E. coli*-like particles. 
+We completed three calibrations, each of which measured standardised non-living samples provided by iGEM headquarters. These calibrations established absorbance and fluorescence baselines for further measurements, and gave a way to relate absorbance to number of *E. coli*-like particles. 
 
 We then moved onto live *E. coli*, measuring the absorbance and fluorescence of populations carrying different GFP-encoding devices. It was possible to compute the fluorescence per cell for each device.
 

@@ -159,7 +159,7 @@ For each green light ratio, two tubes of M9 (without methionine) were inoculated
 
 The first three hours of the run were dedicated to adjusting the cultures to their designated light condition. This was done to prevent any noise from previous growing environment of the cells (such as light contamination) [1] from effecting our measurements.
 
-Once three hours had passed we began to monitor our cultures using OD 600 measurements in intervals of 20 min for 4.3 hours. Below outlines those measurements:
+Once three hours had passed we began to monitor our cultures using OD<sub>600</sub> measurements in intervals of 20 min for 4.3 hours. Below outlines those measurements:
 
 ![PLACE CHART HERE]()
 

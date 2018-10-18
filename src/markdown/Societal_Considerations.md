@@ -91,9 +91,7 @@ _Figure 2. Space filling model of folded Insulin protein_
 ### Make It Taste Better: Yogurt Application 
 &nbsp;&nbsp;&nbsp;&nbsp;Yogurt made its first appearance in 1989 and is promoted to be high in vitamins and calcium. In recent years, yogurt has become one of the most important ingredients to maintain a healthy diet, lifestyle, and balance work life. Optimizing yogurt consumption is an increasing need in an average household and the demand for different yogurt flavouring is slowly emerging. Further research in food and nutrition have found crucial microbes featured in many processes of yogurt production that will demonstrate health benefits including, but not limited to, lactose intolerance, food allergy, Crohn’s disease, and other acute infections in infants and children. With the use of optogenetic co-cultures, this system will allow us to manage the growth of two populations and in turn will give us the opportunity to control different yogurt flavours depending on the different stages of growth, acid contents, and volatile compounds during fermentation. Furthermore, with the ability to control the growth system of different populations, we will be able to identify and study cell-to-cell interactions and influence of probiotic bacteria, including _Lactobacillus acidophilus, Lactobacillus plantarum, Lactobacillus rhamnosus,_ and _Lactobacillus casei_, that might be present. Being able to utilize co-cultures to further research and integrate findings into the yogurt industry to enhance quality of food will be a stepping stone into improving community health. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;The remaining question is, if one cell goes into apoptosis, how can we prevent the impact on the other cell? Will these yogurt products be affordable enough for consumers? 
-
-&nbsp;&nbsp;&nbsp;&nbsp;Since co-cultures are natural interactions in nature between cells, this should not be considered a GMO product. 
+&nbsp;&nbsp;&nbsp;&nbsp;The remaining question is, if one cell goes into apoptosis, how can we prevent the impact on the other cell? Will these yogurt products be affordable enough for consumers? Since co-cultures are natural interactions in nature between cells, this should not be considered a GMO product. 
 <br>
  
 **References**
@@ -123,7 +121,7 @@ _Figure 2. Space filling model of folded Insulin protein_
 **References**
 
 1. Serrano, R., Gonzalez-Menedez, V., Rodriguez, L., Martin, J., Tormo, J., Genilloud, O. (2017). Co-culturing of Fungal Strains Against Botrytis cinerea as a Model for the Induction of Chemical Diversity and Therapeutic Agents. Frontiers in Microbiology, 8:649. doi:10.3389/fmicb.2017.00649
-2. Azzollini, A., Boggia, L., Boccard, J., Sgorbini, B., Lecoultre, N., Allard, P.-M., … Wolfender, J.-L. (2018). Dynamics of Metabolite Induction in Fungal Co-cultures by Metabolomics at Both Volatile and Non-volatile Levels. Frontiers in Microbiology, 9, 72. http://doi.org/10.3389/fmicb.2018.00072
+2. Azzollini, A., Boggia, L., Boccard, J., Sgorbini, B., Lecoultre, N., Allard, P.-M., … Wolfender, J.-L. (2018). Dynamics of Metabolite Induction in Fungal Co-cultures by Metabolomics at Both Volatile and Non-volatile Levels. Frontiers in Microbiology, 9, 72. doi.org/10.3389/fmicb.2018.00072
 3. Blanco, J. L., Garcia, M. E. (2008). Immune response to fungal infections. Veterinary Immunology and Immunopathology, 125(1-2):47-70. doi: 10.1016/j.vetimm.2008.04.020.<br>
 
 

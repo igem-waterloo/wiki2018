@@ -1,4 +1,4 @@
-<center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center>
+# <center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center> Human Practices <center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center>
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;This year, our Human Practices work included a combination of new project ideas, as well as carefully refined projects from previous seasons. We had a strong focus on consulting experts and our work is grouped into four major categories: Societal Considerations, Communication and Public Bias, Public Engagement, and Safety. 
@@ -11,7 +11,7 @@
 
 ### Communication and Public Bias
 
-&nbsp;&nbsp;&nbsp;&nbsp;The Implicit Association Test, or IAT, is a psychological tool for uncovering unconscious, or implicit, biases toward or against a category, like biotechnology.  For us at Waterloo iGEM, this can be a tool for learning how the people we reach the most, through social media and events, as well as our greater community, feel about synthetic biology-associated words. As this is our second time using the test, we’ve changed some things after what we learned last year!  Please continue to our [IAT: Take Two!](http://2018.igem.org/Team:Waterloo/Communication) page to learn more about our revamping, our results, and to try the IAT (insert new link) for yourself!
+&nbsp;&nbsp;&nbsp;&nbsp;The Implicit Association Test, or IAT, is a psychological tool for uncovering unconscious, or implicit, biases toward or against a category, like biotechnology.  For us at Waterloo iGEM, this can be a tool for learning how the people we reach the most, through social media and events, as well as our greater community, feel about synthetic biology-associated words. As this is our second time using the test, we’ve changed some things after what we learned last year!  Please continue to our [IAT: Take Two!](http://2018.igem.org/Team:Waterloo/IAT) page to learn more about our revamping, our results, and to try the [IAT](http://igem.uwaterloo.ca/IAT/) for yourself!
 
 <center><img src="http://2018.igem.org/wiki/images/e/e7/T--Waterloo--HP-com_med.png" /></center>
 
@@ -27,9 +27,7 @@
 
 (insert safety icon)
 
-# Integrated Human Practices
-
-<img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png" /></center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png" /></center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png" /></center>
+# <center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png"/></center> Integrated Human Practices <center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png"/></center>
 
 ### Design Milestones
 

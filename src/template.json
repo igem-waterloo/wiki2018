@@ -24,6 +24,7 @@
 	"iat": "IAT",
 	"societal_considerations": "Societal_Considerations",
         "software": "Software",
+        "automation": "Automation",
         "model": "Model"
    },
     "navigation": {
@@ -37,7 +38,6 @@
             "description": "description",
             "design": "design",
             "experiments": "experiments",
-            "turbidostat": "turbidostat",
             "demonstrate": "demonstrate",
             "results": "results",
             "notebook": "notebook"
@@ -51,9 +51,11 @@
             "iat": "iat",
             "societal_considerations": "societal_considerations"
         },
-        "awards": {
+        "dry_lab": {
+            "model": "model",
             "software": "software",
-            "model": "model"
+            "automation": "automation",
+            "turbidostat": "turbidostat"
         }
     },
     "templates": {
@@ -86,6 +88,7 @@
         "iat": "IAT",
         "societal_considerations": "Societal_Considerations",
         "software": "Software",
+        "automation": "Automation",
         "model": "Model",
         "modeling": "Modeling"
     }

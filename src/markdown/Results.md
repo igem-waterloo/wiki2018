@@ -162,6 +162,7 @@ The first three hours of the run were dedicated to adjusting the cultures to the
 Once three hours had passed we began to monitor our cultures using OD<sub>600</sub> measurements in intervals of 20 min for 4.3 hours. Below outlines those measurements:
 
 <center><img src="http://2018.igem.org/wiki/images/0/02/T--Waterloo--Lab-chart.png"></center>
+- tubes in turbidostat covered in tin foil
 
 The doubling time of each population was determined by plotting log OD 600 values against time in minutes and taking the slope of the linear portion of the curve. Here are the growth curves for each of the samples and the doubling times we calculated from them:
 

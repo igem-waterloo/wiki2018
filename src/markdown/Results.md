@@ -146,12 +146,12 @@ The co-culture we used for our proof of concept consists of two populations; slo
 
 This experiment happened over 7.3 hours and aimed to determine the doubling time of JT2 + CcaS/R under full green light, no green light and medium green light in duplicates.
 
-_NOTE: Light Set up_
+__NOTE: Light Set up__
 
 **Full green:** indicates the green light was on 100% of the 7.3 hour run.
 **No green**  indicates that the green light was never on.
 **Medium green:** indicates green light was on 50% of the 7.3 hour run
-* Red light was on for 100% of the 7.3h run for all samples
+_Red light was on for 100% of the 7.3h run for all samples_
 
 For each green light ratio, two tubes of M9 (without methionine) were inoculated with JT2 cells with CcaS/R from an overnight culture in LB. All tubes were then grown in the turbidostat under one of the three green light conditions for 7.3 hours. 
 

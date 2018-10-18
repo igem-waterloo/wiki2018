@@ -1,5 +1,3 @@
-# Modeling
-
 ## Model Formulation
 
 Our system utlizes the Ccas/Ccar System as an optogenetic switch. When exposed to green light, the Ccas photoreceptor transfers its phosphate group to its binding partner, the Ccar molecule. The Ccar molecule then induces the expression of the gene of interest. Since the expression of MetE is crucial to the production of methionine, it is the optimal choice for our gene of interest. The production of methionine allows the cell to function and profilerate. In order to accurately measure the rate of proliferation, we have artifically inserted GFP, whose levels will be determined by a camera.
@@ -163,8 +161,8 @@ Thus, to vary the amount of light being delivered to the system to provide a con
 
 #### References:
 
-**1.** Davidson, E. A., Basu, A. S., & Bayer, T. S. (2013). Programming Microbes Using Pulse Width Modulation of Optical Signals. *Journal of Molecular Biology*, 425(22), 4161–4166. doi:10.1016/j.jmb.2013.07.036
+**1.** Davidson, E. A., Basu, A. S., \& Bayer, T. S. (2013). Programming Microbes Using Pulse Width Modulation of Optical Signals. *Journal of Molecular Biology*, 425(22), 4161–4166. doi:10.1016/j.jmb.2013.07.036
 
-**2.** Olson, E. J., Hartsough, L. A., Landry, B. P., Shroff, R., & Tabor, J. J. (2014). Characterizing bacterial gene circuit dynamics with optically programmed gene expression signals. Nature Methods, 11(4), 449-455. doi:10.1038/nmeth.2884
+**2.** Olson, E. J., Hartsough, L. A., Landry, B. P., Shroff, R., \& Tabor, J. J. (2014). Characterizing bacterial gene circuit dynamics with optically programmed gene expression signals. Nature Methods, 11(4), 449-455. doi:10.1038/nmeth.2884
 
 **3.** Voelker, Anna, Konstantinos Kouramas, and Efstratios N. Pistikopoulos. "Moving Horizon Estimation: Error Dynamics and Bounding Error Sets for Robust Control." Automatica 49, no. 4 (2013): 943-48. Accessed October 16, 2018. doi:10.1016/j.automatica.2013.01.008.

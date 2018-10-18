@@ -82,7 +82,7 @@ To ensure that flow cytometry can accurately distinguish between fluorescent and
 
 ### Q: Can we control growth with red and green light? 
 
-The control of population growth is the ultimate goal of our project. First we needed to confirm that we could turn on metE expression with green light and thus the growth of the population. We also needed to confirm that the opposite could be done with red light. The confirmation of these two allowed us to move onto determining our range of control on a population's growth by trying differnet ratios of green light.
+The control of population growth is the ultimate goal of our project. First we needed to confirm that we could turn on metE expression with green light and thus the growth of the population. We also needed to confirm that the opposite could be done with red light. The confirmation of these two allowed us to move onto determining our range of control on a population's growth by trying differentt green light exposure times.
 
 In order to test the first two questions we conducted an experiment. JT2 cells containing the Ccas/Ccar system were grown in M9 media without any methionine. As there was no methionine in the media, the expression of MetE was the only way the cell could get methionine. Half the population was put in the incubator with green light, while the other half was put in the incubator with red light. The population in green light should have increased growth and the population in red light should have minimal growth. If this is the case then it would be evidence that we are able to control growth with red and green light. Next we determined the doubling time of our cells under differnt green light ratios to see more precisely what the range of our control is.
 

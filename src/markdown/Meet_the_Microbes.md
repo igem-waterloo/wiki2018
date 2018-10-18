@@ -77,6 +77,7 @@ It also has a Kanamycin resistance gene in its genome.
 
 
 
+
 **Strain**: _Escherichia coli_ DH5alpha
 
 **Plasmids**: None

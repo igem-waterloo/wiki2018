@@ -8,7 +8,7 @@ Our system utlizes the CcaS/CcaR System as an optogenetic switch. When exposed t
 
 \\[ \frac{\textrm{CcaS}_{a}(t)}{dt} =  k_1 \ell(t) + k_9\textrm{Prolif}(t)\\]
 
-<center>The subscript a indicates that we are tracking the rate of activation of the mentioned molecule.</center>
+<center>The subscript 'a' indicates that we are tracking the rate of activation of the mentioned molecule.</center>
 
 \\[ \frac{\textrm{CcaR}_{a}(t)}{dt} =  k_2 \textrm{CcaS}_{a} (H(t-\tau_1)\cdot |t|) + k_8\textrm{Prolif}(t)\\]
 

@@ -117,6 +117,7 @@ The error dynamics of this model are as follows:
 ## Characterizing Gene Expression with Green and Red Light for CcaS-CcaR
 The CcaS-CcaR system is activated by green light, and deactivated by red light.
 To determine whether or not we should keep green or red light constant and modulate the other, and at what intensity this colour of light should be kept constant, literature data was used to fit parameters for hill functions.  The hill functions for the affect of red and green light on gene expression were then plot against each other three-dimensionally.  From this plot, an optimal range of gene expression can be picked and the value of intensity of either constant green or constant red light can be determined.  Therefore, from this analysis we know whether to modulate green or red light while keeping the other at constant value, as well as what constant value should be maintained, to provide an optimal gene expression range.
+
 #### Green Light
 
 Steady state protein expression from the CcaS-CcaR system was plotted with an increasing intensity of green input light.  The data was obtained from literature experiments and during these experiments, red light was held constant at an intensity of 1.05 W/m<sup>2</sup>.<sup>2</sup>

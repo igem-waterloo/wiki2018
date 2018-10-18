@@ -11,7 +11,7 @@
 
 ### Dr. Valerie Ward
 
-&nbsp;&nbsp;&nbsp;&nbsp;Dr. Ward is an assistant professor at the University of Waterloo whose work includes the development of new bioprocesses for applications in biosource engineering and biorefining. The use of stable co-cultures has many promising applications in bioprocessing, so we met with Dr. Ward in the early stages of our project development. In our meeting, we discussed various applications of controlled co-cultures and brainstormed how we could design our project to cater to these applications. One of the main takeaways from the interview was the idea of creating a co-culture of E.coli and S.cerevisiae. Using these two organisms in bioprocessing has many advantages over using just one or the other, as they each provide different environments that are more suitable for different parts of the pathway. 
+&nbsp;&nbsp;&nbsp;&nbsp;Dr. Ward is an assistant professor at the University of Waterloo whose work includes the development of new bioprocesses for applications in biosource engineering and biorefining. The use of stable co-cultures has many promising applications in bioprocessing, so we met with Dr. Ward in the early stages of our project development. In our meeting, we discussed various applications of controlled co-cultures and brainstormed how we could design our project to cater to these applications. One of the main takeaways from the interview was the idea of creating a co-culture of *E.coli* and *S.cerevisiae*. Using these two organisms in bioprocessing has many advantages over using just one or the other, as they each provide different environments that are more suitable for different parts of the pathway. 
 
 ### Industry Representative
 

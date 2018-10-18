@@ -1,22 +1,22 @@
 ## Model Formulation
 
-Our system utlizes the Ccas/Ccar System as an optogenetic switch. When exposed to green light, the Ccas photoreceptor transfers its phosphate group to its binding partner, the Ccar molecule. The Ccar molecule then induces the expression of the gene of interest. Since the expression of MetE is crucial to the production of methionine, it is the optimal choice for our gene of interest. The production of methionine allows the cell to function and profilerate. In order to accurately measure the rate of proliferation, we have artifically inserted GFP, whose levels will be determined by a camera.
+Our system utlizes the CcaS/CcaR System as an optogenetic switch. When exposed to green light, the CcaS photoreceptor transfers its phosphate group to its binding partner, the CcaR molecule. The CcaR molecule then induces the expression of the gene of interest. Since the expression of MetE is crucial to the production of methionine, it is the optimal choice for our gene of interest. The production of methionine allows the cell to function and profilerate. In order to accurately measure the rate of proliferation, we have artifically inserted GFP, whose levels can be determined by a camera.
 
 ![Reaction Network Diagram](http://2018.igem.org/wiki/images/8/89/T--Waterloo--Model-ReactionNetwork.png)
 
 ##### Formally, our network is equivalent to:
 
-\\[ \frac{\textrm{CcaS}_{a}(t)}{dt} =  k_1 \ell(t) + k\textrm{Prolif}(t)\\]
+\\[ \frac{\textrm{CcaS}_{a}(t)}{dt} =  k_1 \ell(t) + k_9\textrm{Prolif}(t)\\]
 
 <center>The subscript a indicates that we are tracking the rate of activation of the mentioned molecule.</center>
 
-\\[ \frac{\textrm{CcaR}_{a}(t)}{dt} =  k_2 \textrm{CcaS}_{a} (H(t-\tau_1)\cdot |t|) + k\textrm{Prolif}(t)\\]
+\\[ \frac{\textrm{CcaR}_{a}(t)}{dt} =  k_2 \textrm{CcaS}_{a} (H(t-\tau_1)\cdot |t|) + k_8\textrm{Prolif}(t)\\]
 
-<center>Note that a Heaviside function is introduced to account for input-response delay in the network. Bacteria will not immediately respond to influence, and internal mechanisms will introduce delay.</center>
+<center>Note that a Heaviside function is introduced to account for delay in the network.</center>
 
-\\[\frac{d\textrm{Prom}_{a}(t)}{dt} = \alpha_0 + \alpha \frac{\textrm{CcaR}_{a} (t)}{k + \textrm{CcaR}(t)}\\]
+\\[\frac{d\textrm{Prom}_{a}(t)}{dt} = \alpha_0 + \alpha \frac{\textrm{CcaR}_{a} (t)}{k_7 + \textrm{CcaR}(t)}\\]
 
-\\[ \frac{d\textrm{MetE}(t)}{dt} = k\textrm{Prom}_{a}(t) \\]
+\\[ \frac{d\textrm{MetE}(t)}{dt} = k_6\textrm{Prom}_{a}(t) \\]
 
 \\[\textrm{Logistic}(t) =  \left( A+\frac{K-A}{(1+Qe^{-\beta t})^{1/\nu}} \right)\\]
 

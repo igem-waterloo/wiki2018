@@ -5,13 +5,13 @@ We found the interlab study particularly interesting this year because it also r
 
 **Guelph iGEM** 
 
-![guelphImage](http://parts.igem.org/wiki/images/7/75/T--Waterloo-Collaborations_guelph.jpeg)
+<center><img src="http://parts.igem.org/wiki/images/7/75/T--Waterloo-Collaborations_guelph.jpeg" /></center>
 
 We gifted the Guelph iGEM team with black, flat, clear-bottomed, 96 well plates so that they could complete the interlab study. 
 
 **McMaster iGEM**
 
-![MacImage](http://parts.igem.org/wiki/images/4/4b/T--Waterloo-Collaborations_mGEM.jpg) 
+<center><img src="http://parts.igem.org/wiki/images/4/4b/T--Waterloo-Collaborations_mGEM.jpg" /></center>
 
 We gave the McMaster iGEM team *E. coli* DH5-alpha cells so that they could meet [requirement #2 for successful completion of the interlab study](http://2018.igem.org/Measurement/InterLab). 
 
@@ -34,7 +34,7 @@ Members from both of our teams also attended [Western SynBio Symposium 3.0](http
  
 **oGEM (Ontario iGEM Meet Up)**
 
-![ogem](http://2018.igem.org/wiki/images/0/06/T--Waterloo--Collaborations_ogem.jpg) 
+<center><img src="http://2018.igem.org/wiki/images/0/06/T--Waterloo--Collaborations_ogem.jpg" /></center>
 
 On July 28th, 2018, we ventured to McMaster University for the annual oGEM meet up. We gathered with iGEM teams from all over Ontario, Canada. We each presented our projects, progress, and obstacles we were facing. We all provided/received feedback from one another. 
 
@@ -46,7 +46,7 @@ One of our team members, Max Reed, who led our [amyloid-related iGEM project](ht
   
  **SynBio Postcards**
  
-![postcard](http://2018.igem.org/wiki/images/b/b2/T--Waterloo--Collaborations_Postcard.jpg) 
+<center><img src="http://2018.igem.org/wiki/images/b/b2/T--Waterloo--Collaborations_Postcard.jpg" /></center>
 
 We participated in Heinrich-Heine University, Duesseldorf's [postcard collaboration](http://2018.igem.org/Teams/Collaborations#collab_1) along with several other iGEM teams from all over the world. We designed a postcard communicating our project visually. The purpose was to increase public awareness of synthetic biology and our projects. Here's our postcard: 
 

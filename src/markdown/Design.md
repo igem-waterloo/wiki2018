@@ -88,6 +88,9 @@ In order to test the first two questions we conducted an experiment. JT2 cells c
 ## Future Directions
 We have had less than a year to work on this project. We have so many more things we would like to do. Here, we describe the future directions our team hopes to take! 
 
+* We would like to continue our experiments looking into the range of control we can have on JT2’s doubling time by varying its exposure to green light. We plan to do this by creating growth curves for JT2 under a wider variety of green light ratios 
+* Secondly we would like to try and make a stable co-culture by modifying the growth rate of JT2 to match the growth rate of another e.coli strain. We hypothesis that two populations with similar growth rates will have a stable co-culture. However we would also like to test this theory by creating a co-culture with cells we already know have a similar doubling time. 
+
 ## References
 
 [1] A. Milias-Argeitis, M. Rullan, S. K. Aoki, P. Buchmann, and M. Khammash, “Automated optogenetic feedback control for precise and robust regulation of gene expression and cell growth,” Nature Communications, vol. 7, p. 12546, 2016.

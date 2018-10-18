@@ -1,26 +1,29 @@
-# Automation: “Robot” Experiments
+## “Robot” Experiments
 
 Given the complex nature and high cost of flow cytometers, the team began looking into lower-cost solutions to measure cell fluorescence that could be built in-house and integrated with the turbidostat. The end goal of this was to create a device that could be run off of a Raspberry Pi or an Arduino that could simultaneously control the turbidostat (which is already controlled by an Arduino). The "robot" designed below was never fully integrated with the rest of the project hardware, but an optimal design for a fluorescence-measuring design was determined. Therefore, such an integration could be reasonably implemented in the future.
 
-## Initial Experiment
+### Initial Experiment
+
 Having determined the utility of an automated sampling system, the team first set out to confirm whether or not cells with different levels of GFP expressed could be visually distinguished when exposed to a ~488 nm light source.  To this end, a light source with a peak emission at 488 nm and a light filter capable of letting green light but not blue light pass through were borrowed from the Reed lab at the University of Waterloo.
 
 Cells (specifically BW 29655 E. coli) expressing GFP under the CcaR promoter were grown to an OD of ~1 under both red and green light in complete M9.  Unfortunately fluorescence measurements were not taken under the flow cytometer, but for the record the cells grown under red light were white while those grown under green light were visibly green.  Upon shining blue light on the cells and taking a picture through the filter, the following image was obtained:
 
-![alt text](http://2018.igem.org/wiki/images/a/a4/T--Waterloo--July18_initialFluorescenceCheck.jpg)
+<center><img src="http://2018.igem.org/wiki/images/a/a4/T--Waterloo--July18_initialFluorescenceCheck.jpg" /></center>
 
 The container on the right was the one grown under green light, and it is very clearly distinguishable from the container on the right.
 
-## Box Design and Test with Photodiode
+### Box Design and Test with Photodiode
+
 A box was designed using AutoDesk Inventor (a 3D computer aided design software) to hold the components of the measurement system (sample tube, LED, and photodiode/camera) in place for each measurement as well as to block out ambient light.  Using CAD software also allows us to 3D print the final box design if we so desire.  The measurement system involves exciting the GFP with an LED (488 nm) and measuring the emitted fluorescence (510 nm).  To measure the emitted light without measuring the excitation light from the LED, the filter lent to us by the Reed lab was used so that only 510 nm light would be absorbed by the photodiode/camera.  See the first image below for the initial box design, and the second image below for the principle of operation.
 
-![alt text](http://2018.igem.org/wiki/images/5/53/T--Waterloo--boxDesign.png)
+<center><img src="http://2018.igem.org/wiki/images/5/53/T--Waterloo--boxDesign.png" /></center>
 
-![alt text](http://2018.igem.org/wiki/images/1/15/T--Waterloo--boxPrincipleOfOperation.png)
+<center><img src="http://2018.igem.org/wiki/images/1/15/T--Waterloo--boxPrincipleOfOperation.png" /></center>
 
 The design was initially tested using a cardboard box with holes cut in it as shown in the CAD drawing.  We attempted to measurement the fluorescence of a sample tube of cells in the box with a photodiode.  The box prevented ambient light from entering the system and kept the parts in place as desired, however we found we could not get consistent readings when we repeatedly measured the same sample; slight fluctuations in sample and LED position together with possible photodiode malfunction were responsible for these inconsistencies. As a result of this experiment, we decided to try using a camera instead.  We also found that our initial placements of the components was not optimal and concluded that we must perform an experiment to optimize the distances and placements of components without the box.
 
-## Quantification Test with Camera
+### Quantification Test with Camera
+
 After the unclear results of the test with the original box apparatus, it was determined that the test using the camera should be repeated in a more quantitative manner. Similarly to the initial experiment, E. coli (this time JT2 containing GFP under the CcaR promoter) were grown up to an OD of ~0.6 in complete M9. Two samples were grown under green light, and two under red light.
 
 The tubes were arranged in a row in front of an iPhone camera, which our light filter in front of it. The tubes were placed in two alternate arrangements, and a movie was taken of the blue LED being passed behind them. See below for one of the movies taken.
@@ -31,7 +34,7 @@ The tubes were arranged in a row in front of an iPhone camera, which our light f
 
 As one can see (especially when looking at the bottoms of the vials), the first and third vials from the right are brighter. These were the vials grown under green light, and hence the cells in them had more GFP. Screenshots of the vials were taken as the light was directly behind them, and the images were cropped down to just the vial (see below for an example of a cropped image).
 
-![alt text](http://2018.igem.org/wiki/images/1/19/T--Waterloo--August21_Arrangement1Vial1.jpg)
+<center><img src="http://2018.igem.org/wiki/images/1/19/T--Waterloo--August21_Arrangement1Vial1.jpg" /></center>
 
 These images were then fed into a Python program that broke them down into their RGB values. The red, green, and blue values of each pixel in each image were taken and averaged over each image. Since some blue light still made it through the filter, average blue values for the images could not be used to distinguish the samples. Additionally, the green values were informative but still relatively similar in each image, mostly because a strong blue light actually emits some green light as well. However, examining the average red values made the cells grown under red and green light easily distinguishable, with the more fluorescent cells being more “red” (as GFP actually emits some red light).
 
@@ -42,10 +45,11 @@ https://github.com/igem-waterloo/uwaterloo-igem-2018/blob/master/models/image/gr
 
 For the full experimental protocol, see the online lab book (pages 80 and 81).
 
-## Optimization Test with Camera
+### Optimization Test with Camera
+
 Following the successful fluorescence-quantization experiment, the team determined that it was necessary to optimize the positions of both the camera and the blue LED relative to the sample. To do this, an experiment was designed according to the following diagram:
 
-![alt text](http://2018.igem.org/wiki/images/4/41/T--Waterloo--Sept24_setupArrangementDiagram.png)
+<center><img src="http://2018.igem.org/wiki/images/4/41/T--Waterloo--Sept24_setupArrangementDiagram.png" /></center>
 
 The green squares represent positions for the camera, the red squares represent positions for the blue LED, and the white circle represents the sample. Every combination of camera and LED position was tried.
 
@@ -60,25 +64,25 @@ When the LED, sample, and camera are in a line, the light coming from the LED ca
 
 From the above observations, it became clear that the best setup was to have the LED 10 cm away from the sample, have the camera 20 cm from the sample, and have the LED-sample-camera path to be in an L shape. For that particular set up, the results below were obtained after analysis using the Python program for getting average RGB values.
 
-![alt text](http://2018.igem.org/wiki/images/c/c9/T--Waterloo--Sept24_resultsTableForGoodPosition.png)
+<center><img src="http://2018.igem.org/wiki/images/c/c9/T--Waterloo--Sept24_resultsTableForGoodPosition.png" /></center>
 
 The fluorescence values are a simple average between the values for the duplicates. As one can see, strain 346 is clearly more fluorescent than JT2, and the mixture is of an intermediate fluorescence. This confirms that the system can be used to measure fluorescence and distinguish between different mixtures of fluorescent and non-fluorescent cells. The mixture should have been ~50% fluorescent cells, and by linear interpolation from the data obtained one can get that the mixture is 58% fluorescent cells (from the calculation (100%)*(94.7-71.85)/(111.25-71.85)).
 
-## Practical Use During the Project
+### Practical Use During the Project
 
 The “robot” used to measure fluorescence, now no longer housed in a box, was used to attempt to estimate the ratios of different populations in a co-culture. The sample tube contained both DH5α containing GFP and empty DH5α.
 
 The setup as a whole consisted of a camera with our filter in front of it, a sample tube 15 cm away from this camera, and our blue LED (which was 10 cm away from our sample). This is a diagram representative of the setup:
 
-![alt text](http://2018.igem.org/wiki/images/f/f8/T--Waterloo--robotAttempt.jpg)
+<center><img src="http://2018.igem.org/wiki/images/f/f8/T--Waterloo--robotAttempt.jpg" /></center>
 
 The actual image of the sample on the camera appeared as follows:
 
-![alt text](http://2018.igem.org/wiki/images/e/e0/T--Waterloo--robotAttemptImage.jpg)
+<center><img src="http://2018.igem.org/wiki/images/e/e0/T--Waterloo--robotAttemptImage.jpg" /></center>
 
 During the experiment, we intended to use a flow cytometer to confirm the population ratios, but unfortunately it broke the day before the experiment was set to run. Accordingly, we do not have confirmation that the robot correctly estimated the population ratios. However, the experiment was done in duplicate and the population were monitored over two hours, and the duplicates did at least have very similar average RGB values. This means that the machine was at least precise, even if we cannot speak to its accuracy.
 
-## Second Design and Future Experiments
+### Second Design and Future Experiments
 
 The team managed to successfully attach a camera to a Raspberry Pi, and have the Pi control and take pictures with the camera. This could eventually be used as a replacement to the phone camera.
 

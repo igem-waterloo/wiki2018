@@ -35,13 +35,13 @@ _Day 3:_
 
 &nbsp;&nbsp;&nbsp;&nbsp;This workshop introduced twelve SHAD students to a blend of hands-on and presentation-based material revolving around synthetic biology. Student learning was quantified using anonymously-associated surveys, completed at the beginning and end of the entire iGEM workshop. We asked students how comfortable they would be when explaining a variety of concepts or procedures, such as DNA, Aseptic Technique, and Heat Shock, to another person. The before and after graphs below display a marked improvement in comfort.  
 
-![Before Workshop Graph](http://2018.igem.org/wiki/images/5/58/T--Waterloo--E%26E-SHADgraph1new.png)  
-![After Workshop Graph](http://2018.igem.org/wiki/images/8/89/T--Waterloo--E%26E-SHADgraph2new.png)  
+<center><img src="http://2018.igem.org/wiki/images/5/58/T--Waterloo--E%26E-SHADgraph1new.png" /></center>
+
+<center><img src="http://2018.igem.org/wiki/images/8/89/T--Waterloo--E%26E-SHADgraph2new.png" /></center>
 
 &nbsp;&nbsp;&nbsp;&nbsp;Presentations also included discussion about ethical dilemmas - some of which have been hotly debated in this field. This is our fifth year partnering with SHAD Waterloo, and we have also gathered additional student feedback on the structure and content of this workshop. We hope to keep improving and developing this workshop in the future! Finally, we asked students how comfortable they would be using a product or technology that was made with or developed using synthetic biology. Our results showed an increase in comfort across the board, seen in a graph below. Waterloo iGEM is happy to report that a successful, eye-opening, and educational experience was provided to students in collaboration with SHAD Waterloo!  
 
-![Comfort Using Synbio Tech](http://2018.igem.org/wiki/images/7/76/T--Waterloo--E%26E-SHADgraph3new.png)  
-
+<center><img src="http://2018.igem.org/wiki/images/7/76/T--Waterloo--E%26E-SHADgraph3new.png" /></center>
 
 ### Pictures 
 

@@ -21,7 +21,7 @@
         "attributions": "Attributions",
         "human_practices": "Human_Practices",
         "engagement": "Engagement",
-	"communication": "Communication",
+	"iat": "IAT",
 	"societal_considerations": "Societal_Considerations",
         "software": "Software",
         "model": "Model"
@@ -48,7 +48,7 @@
         "_human_practices": {
             "human_practices": "human_practices",
             "engagement": "engagement",
-            "communication": "communication",
+            "iat": "iat",
             "societal_considerations": "societal_considerations"
         },
         "awards": {
@@ -83,7 +83,7 @@
         "project_talks": "Project_Talks",
         "practices": "Practices",
         "engagement": "Engagement",
-        "communication": "Communication",
+        "iat": "IAT",
         "societal_considerations": "Societal_Considerations",
         "software": "Software",
         "model": "Model",

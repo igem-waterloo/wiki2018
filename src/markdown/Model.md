@@ -47,7 +47,7 @@ MHE is a state estimation method that utilizes multiple measurements over time. 
 
 MHE works by adjusting initial conditions and parameters within a model to align measured and predicted values.  To do this it uses an internal dynamic model, an optimization cost function over the estimation horizon, and requires a history of past measurements.
 
-## Error Dynamics of a Linearization of Our Model <sup>3</sup>
+## Error Dynamics of a Linearization of Our Model
 
 For a control system such as ours, the error dynamics are critical to derive. In order to make the dynamics feasible, we only consider the error dynamics of controlling a single population under this linear model:
 

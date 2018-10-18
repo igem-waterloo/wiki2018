@@ -52,9 +52,13 @@ I’d like the bullet points to be double indented ie with the smaller bullet po
 As exemplified here
 
 **Amino acid**: The building blocks that make up proteins
+
 **Bacteriophage**: A virus that can only infect bacteria
+
 **BioBricks**: DNA pieces that we can use to create larger, newer sequences to give bacteria new abilities
+
 **Biotechnology**: Using biology to help with industrial and technological processes, like having _E. coli_ produce human insulin so it’s less expensive and more accessible to people who need it
+
 **Co-Cultures**: Two or more bacterial cultures living together in the same space at the same time
 **Culture**: In synthetic biology, a population of bacteria of the same species and strain
 **Enzyme**: A biological catalyst that speeds up biochemical reactions that otherwise would take too long to be helpful to the cell

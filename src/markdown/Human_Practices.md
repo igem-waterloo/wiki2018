@@ -8,8 +8,6 @@
 
 <center><img src="http://2018.igem.org/wiki/images/8/89/T--Waterloo--HP-SC.png" /></center>
 
-<center><img src="http://2018.igem.org/wiki/images/e/e7/T--Waterloo--HP-com_med.png" /></center>
-
 ### Communication and Public Bias
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Implicit Association Test, or IAT, is a psychological tool for uncovering unconscious, or implicit, biases toward or against a category, like biotechnology.  For us at Waterloo iGEM, this can be a tool for learning how the people we reach the most, through social media and events, as well as our greater community, feel about synthetic biology-associated words. As this is our second time using the test, we’ve changed some things after what we learned last year!  Please continue to our [IAT: Take Two!](http://2018.igem.org/Team:Waterloo/Communication) page to learn more about our revamping, our results, and to try the IAT (insert new link) for yourself!

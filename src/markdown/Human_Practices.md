@@ -52,7 +52,7 @@ ii)  Videos all about synbio!
  
 iii)  Conscious Presentation
 
- * Changing our language when we speak to others about our project to be informative, without being intimidating
+ * Changing our language when we speak to others about our project to be informative, without being intimidating<br>
 
 **Amino acid**: The building blocks that make up proteins
 

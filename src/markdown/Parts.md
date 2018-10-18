@@ -5,6 +5,6 @@ This year, our team biobricked the MetE gene into a cassette with LacI promoter:
 <tr>
   <td> Name <td> Type <td> Description <td> Designer <td> length 
   <tr> 
-    <td> [BBa_K2573000](http://parts.igem.org/Part:BBa_K2573000) <td> Composite <td> Waterloo iGEM <td> 2658 
+    <td> [BBa_K2573000](http://parts.igem.org/Part:BBa_K2573000) <td> Composite <td> MetE coding sequence in cassete with LacI promoter <td> Waterloo iGEM <td> 2658 
     
     </table>

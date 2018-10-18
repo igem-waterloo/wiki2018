@@ -11,25 +11,25 @@ Microorganisms exist in complex and diverse communities. This enables a variety 
 This would open several doors in biotechnology and research. For instance, metabolic engineering of microbial communities may improve the production of pharmaceuticals, biofuels, and other important resources and materials. Moreover, controllable co-cultures would allow researchers to explore complex interactions between microbes and investigate questions that could not previously be answered due to co-culturing limitations.
 
 
-# What is MetE?
+## What is MetE?
 We are going to control the production of MetE, an enzyme that catalyses the rate-limiting step in methionine biosynthesis [1]. Methionine is an important amino acid that bacteria need to make proteins and grow. Bacteria can obtain it from their environment or produce it themselves using the MetE enzyme. If placed in a medium that does not contain methionine, bacteria can only grow if they have the ability to produce this enzyme.  
 
-# What is CcaS/R? 
+## What is CcaS/R? 
 CcaS/R is a light-switchable system derived from cyanobacteria which can be introduced into *E. coli* [1]. This system can be used to create a long term optical feedback system for gene expression in the bacterial culture. CcaS/R is a three part system consisting of CcaS, CcaR and the associated promoter region. The gene of interest, MetE in our case, is placed under the promoter region so that its expression can be controlled. CcaS is the “sensor” protein which detects the wavelength of light. CcaR is the regulator protein which binds to the promoter, which modulates gene expression when green light is detected and stops expression when red light is detected [1].
 
-# How our sytem works
-## On
+## How our sytem works
+### On
 With green light on, CcaS/R is activated, and promotes MetE expresssion. This leads to growth of the bacterial population! 
 
-![active](http://parts.igem.org/wiki/images/3/3d/T--Waterloo-Ccas_how_it_works_Green.png)
+<center><img src="http://parts.igem.org/wiki/images/3/3d/T--Waterloo-Ccas_how_it_works_Green.png" /></center>
 
-## Off 
+### Off 
 With red light on, CcaS/R is inactive. MetE is not expresssed and methionine is thus not produced. In a medium that lacks methionine, this stalls growth!
 
-![inactive](http://parts.igem.org/wiki/images/6/67/T--Waterloo--CcasR_How_it_works_Red.png)
+<center><img src="http://parts.igem.org/wiki/images/6/67/T--Waterloo--CcasR_How_it_works_Red.png" /></center>
 
-## Fine Tune 
+### Fine Tune 
 Our system is not only an on/off switch. We can also fine tune growth of bacterial populations by controlling the amount of time we expose the cells to green light. In our system, red light is always on, but green light is varied depending on what we want to achieve. For instance, for a fast growth rate, we could have the green light on all the time. For a medium growth rate, we would have the green light on for only half of the time.    
 
-# References 
+## References 
 [1] A. Milias-Argeitis, M. Rullan, S. K. Aoki, P. Buchmann, and M. Khammash, “Automated optogenetic feedback control for precise and robust regulation of gene expression and cell growth,” Nature Communications, vol. 7, p. 12546, 2016.

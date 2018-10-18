@@ -1,7 +1,8 @@
 ## Empty JT2
 
-![Empty JT2](http://2018.igem.org/wiki/images/5/56/T--Waterloo--MeetMicro_JT2.png)
-#### Strain 
+<img align="left" src="http://2018.igem.org/wiki/images/5/56/T--Waterloo--MeetMicro_JT2.png">
+
+#### Strain
 - _Escherichia coli_ [JT2 SKA974](https://www.addgene.org/80403/) 
 
 - This strain has been engineered for optogenetic control using CcaS/R. Its genomic MetE gene is under control of the CcaS/R promoter. It also has a Kanamycin resistance gene in its genome. 
@@ -24,7 +25,7 @@
 
 ## JT2 - CcaS/R
 
-![JT2 CcaS/R](http://2018.igem.org/wiki/images/a/a9/T--Waterloo--MeetMicro_JT2CcaSR.png) 
+<img align="left" src="http://2018.igem.org/wiki/images/a/a9/T--Waterloo--MeetMicro_JT2CcaSR.png">
 
 #### Strain 
 - _Escherichia coli_ [JT2 SKA974](https://www.addgene.org/80403/) 
@@ -51,10 +52,9 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 - What is the metabolic load of (over)expressing MetE?
 - Can we control growth with red and green light? 
 
-
 ## Empty DH5alpha
 
-![Empty DH5](http://2018.igem.org/wiki/images/9/9b/T--Waterloo--MeetMicro_empty.png) 
+<img align="left" src="http://2018.igem.org/wiki/images/9/92/T--Waterloo--MeetMicro_dh5.png">
 
 #### Strain 
 - _Escherichia coli_ DH5alpha 
@@ -76,7 +76,7 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 
 ## DH5alpha - GFP
 
-![DH5 GFP](http://2018.igem.org/wiki/images/c/c9/T--Waterloo--MeetMicro_GFP.png)
+<img align="left" src="http://parts.igem.org/wiki/images/9/99/T--Waterloo--DH5alpha-GFP.png">
 
 ### Strain 
 - _Escherichia coli_ DH5alpha

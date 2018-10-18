@@ -30,10 +30,10 @@
 
 <center><img src="http://2018.igem.org/wiki/images/6/61/T--Waterloo--sc-diagram.png" /></center>
 
-_<p align="center">
+<p align="center"><i>
 Figure 1. A mutualistic E. coli – S. cerevisiae consortium for production of oxygenated taxanes. 
 Adapted from “Distributing metabolic pathway among a microbial consortium enhances production of natural products,” by K. Zhou, K. Qiao and S. Stephanopoulos, 2015, Nature Biotechnology, 33, 377-383. Copyright 2015 by Nature America Inc
-</p>_
+</i></p>
 
 <br>
 

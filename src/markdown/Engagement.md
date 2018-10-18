@@ -97,11 +97,13 @@ Below, we’ve included three educational videos which we’ve shared with audie
 <source src="http://2018.igem.org/wiki/images/4/42/T--Waterloo--E%26E-AZparody.mp4" type="video/mp4">
 </video>
 
-### Debunking Synbio Myths
+[Video Transcript](http://2018.igem.org/wiki/images/6/67/T--Waterloo--E%26E-AZtranscript.pdf)  
+
+### Debunking Synbio Myths 
 
 <video width="100%" height="480" controls>
 <source src="http://2018.igem.org/wiki/images/c/c7/T--Waterloo--E%26E-DebunkingMyths.mp4" type="video/mp4">
-</video>
+</video>  
 
 ### Co-Cultures
 

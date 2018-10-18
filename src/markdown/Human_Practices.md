@@ -42,11 +42,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;While working on our IAT project and compiling the results, we noticed that some words were being “missorted” (sorted into the wrong category). This indicated that some of our audience may be less familiar with some of the synthetic biology vocabulary we use (in particular, the word “optogenetics” was the most missorted word in the synbio category). In order to increase public understanding of what synthetic biology is and in particularly, what iGEM Waterloo is working on, we’ve thus decided to create a few ways to help:
 1) A mini-glossary of general synbio terms as well as project-related terms!
-* Simple definitions of concepts and tools used by us and the wider synthetic biology community. Find our glossary below:
+ * Simple definitions of concepts and tools used by us and the wider synthetic biology community. Find our glossary below:
 2) Videos all about synbio!
-* Three educational videos to engage the public in a new way, because not everyone learns in the same way
+ * Three educational videos to engage the public in a new way, because not everyone learns in the same way
 3)  Conscious Presentation
-* Changing our language when we speak to others about our project to be informative, without being intimidating
+ * Changing our language when we speak to others about our project to be informative, without being intimidating
 
 I’d like the bullet points to be double indented ie with the smaller bullet point that’s only a black outline, white circle 
 As exemplified here

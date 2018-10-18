@@ -81,3 +81,5 @@ During the experiment, we intended to use a flow cytometer to confirm the popula
 ## Second Design and Future Experiments
 
 The team managed to successfully attach a camera to a Raspberry Pi, and have the Pi control and take pictures with the camera. This could eventually be used as a replacement to the phone camera.
+
+In a theoretical future design, the robot could be set up within the turbidostat's incubator, with the turbidostat's intermediate waste vials in the place of the current sample vials seen above. In this way, the robot could measure the fluorescence of the cells flushed out of the turbidostat every time it dilutes a cell culture. It may even be possible to attach an additional vacuum line to the intermediate waste vial. This could be used to clear out the liquid of the intermediate waste vial in an automated function.

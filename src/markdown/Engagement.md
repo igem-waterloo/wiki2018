@@ -1,3 +1,5 @@
+<center><img src="http://2018.igem.org/wiki/images/3/34/T--Waterloo--hp-E%2BE2.png" /></center>
+
 &nbsp;&nbsp;&nbsp;&nbsp;iGEM Waterloo has made passionate efforts in Public Education and Engagement! Specifically, we’ve hosted a hands-on synthetic biology workshop for SHAD high school students, we’ve hosted a Literacy Workshop in which we taught students how to read and understand technical papers, and we’ve created several videos ranging from general public education to more technical educational videos to promote synthetic biology and provide public education. To learn more, read on!
 
 ## The SHAD Workshop  

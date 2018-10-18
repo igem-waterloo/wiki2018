@@ -12,9 +12,6 @@
 - None
 #### Can produce methionine? 
 - No 
-#### Which experiments was I involved in? 
-- Is methionine shared between cells? 
-- Biobrick [BBa_K2573000 characterization](http://parts.igem.org/Part:BBa_K2573000) 
 
 ## JT2 - CcaS/R
 <img align="left" src="http://2018.igem.org/wiki/images/a/a9/T--Waterloo--MeetMicro_JT2CcaSR.png">
@@ -34,10 +31,6 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 - GFP in the characterization version of this strain, only expressed when CcaS/R is activated.
 #### Can produce methionine? 
 - Yes, but only when CcaS/R is activated. 
-#### Which experiments was I involved in? 
-- Is methionine shared between cells? 
-- What is the metabolic load of (over)expressing MetE?
-- Can we control growth with red and green light? 
 
 ## Empty DH5alpha
 <img align="left" src="http://2018.igem.org/wiki/images/9/92/T--Waterloo--MeetMicro_dh5.png">
@@ -52,8 +45,6 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 - None
 #### Can produce methionine? 
 - Yes, with my wild type genomic MetE gene. 
-#### Which experiments was I involved in? 
-- Can we reliably measure 2 populations in co-culture?
 
 ## DH5alpha - GFP
 
@@ -71,5 +62,3 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 - GFP, constitutively expressed. 
 #### Can produce methionine? 
 - Yes, with my wild type genomic MetE gene. 
-#### Which experiments was I involved in? 
-- Can we reliably measure 2 populations in co-culture?

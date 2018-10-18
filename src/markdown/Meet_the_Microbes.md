@@ -4,9 +4,9 @@
 **Strain**: _Escherichia coli_ [JT2 SKA974](https://www.addgene.org/80403/). This strain has been engineered for optogenetic control using CcaS/R. Its genomic MetE gene is under control of the CcaS/R promoter. It also has a Kanamycin resistance gene in its genome. 
 
 **Plasmids**:
-- [pSR43.6r](https://www.addgene.org/63197/) (CcaS, its photoreceptor, p15A origin of replication)
-- [pSR58.6](https://www.addgene.org/63176/) (CcaR, sfGFP under the CcaR promoter, ColeI origin of replication)
-  - Note that we made two versions of this strain. One contains both these plasmids, unaltered, and was used for characterization 
+  - [pSR43.6r](https://www.addgene.org/63197/) (CcaS, its photoreceptor, p15A origin of replication)
+  - [pSR58.6](https://www.addgene.org/63176/) (CcaR, sfGFP under the CcaR promoter, ColeI origin of replication)
+    - Note that we made two versions of this strain. One contains both these plasmids, unaltered, and was used for characterization 
  experiments. We cut GFP out of pSR58.6 for the second version of this strain, and used it for non-characterization experiments.   
  
 **Antibiotic Resistance(s)**: Kanamycin, Spectinomycin, Chloramphenicol 
@@ -49,8 +49,8 @@ It also has a Kanamycin resistance gene in its genome.
 **Strain**: _Escherichia coli_ DH5alpha 
 
 **Plasmids**:
-- [BBa_E0040 in pSB1C3](http://parts.igem.org/Part:BBa_E0040) (GFP biobrick, ColeI origin of replication)
-- a plasmid we constructed that has Spectinomycin resistance and p15A origin of replication
+  - [BBa_E0040 in pSB1C3](http://parts.igem.org/Part:BBa_E0040) (GFP biobrick, ColeI origin of replication)
+  - a plasmid we constructed that has Spectinomycin resistance and p15A origin of replication
 
 **Antibiotic Resistance(s)**: Spectinomycin, Chloramphenicol 
 

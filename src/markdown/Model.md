@@ -40,7 +40,7 @@ Our system utlizes the CcaS/CcaR System as an optogenetic switch. When exposed t
 
 <center>\\(\frac{dR (t)}{dt}\\) is the ratio which we are trying to control.</center>
 
-We determined that this is the most accurate reaction network that could be derived in theory (though it doesn't account for all noise).
+We determined that this is the most accurate reaction network that could be derived in theory, specifically excluding stochastic noise. Stochastic control theory is still a rapidly developing field and software is not readily available.
 
 ## Moving Horizon Estimate (MHE)
 MHE is a state estimation method that utilizes multiple measurements over time.  These measurements contain noise and other random variations.  However, MHE will allow for the production of estimates of unknown variables and parameters in the measurements despite noise.  MHE necessitates an iterative approach relying on either linear programming or nonlinear programming solvers to find solutions.  This method is particularly useful for nonlinear or constrained dynamic systems for which few general models with established properties and parameters are available. We selected MHE due to its performance in environments where parameters are not precisely known.

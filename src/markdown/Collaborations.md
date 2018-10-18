@@ -11,15 +11,11 @@ We found the interlab study particularly interesting this year because it also r
 
 We gifted the Guelph iGEM team with black, flat, clear-bottomed, 96 well plates so that they could complete the interlab study.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 <b><p align="right">McMaster iGEM</p></b>
 
 <img align="right" src="http://parts.igem.org/wiki/images/4/4b/T--Waterloo-Collaborations_mGEM.jpg">
 
 We gave the McMaster iGEM team *E. coli* DH5-alpha cells so that they could meet [requirement #2 for successful completion of the interlab study](http://2018.igem.org/Measurement/InterLab).
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Mentoring, Brainstorming, and Troubleshooting
 
@@ -55,8 +51,8 @@ One of our team members, Max Reed, who led our [amyloid-related iGEM project](ht
 <br>
 
 ## Public Engagement & Outreach
-  
- **SynBio Postcards**
+
+**SynBio Postcards**
  
 ![postcard](http://2018.igem.org/wiki/images/b/b2/T--Waterloo--Collaborations_Postcard.jpg) 
 

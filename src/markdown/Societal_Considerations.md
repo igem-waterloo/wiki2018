@@ -30,8 +30,11 @@
 
 <center><img src="http://2018.igem.org/wiki/images/6/61/T--Waterloo--sc-diagram.png" /></center>
 
+<p align="center">
 _Figure 1. A mutualistic E. coli – S. cerevisiae consortium for production of oxygenated taxanes. 
 Adapted from “Distributing metabolic pathway among a microbial consortium enhances production of natural products,” by K. Zhou, K. Qiao and S. Stephanopoulos, 2015, Nature Biotechnology, 33, 377-383. Copyright 2015 by Nature America Inc_
+</p>
+
 <br>
 
 **References**
@@ -68,7 +71,10 @@ Adapted from “Distributing metabolic pathway among a microbial consortium enha
 
 <center><img src="http://2018.igem.org/wiki/images/0/06/T--Waterloo--sc-protein.png" /></center>
 
+<p align="center">
 _Figure 2. Space filling model of folded Insulin protein_
+</p>
+
 <br>
 
 **References**

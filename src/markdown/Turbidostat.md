@@ -2,7 +2,7 @@ A turbidostat is a machine capable of maintaining the optical density, or turbid
 
 Turbidostats are not widely available on the market, and at present there are few if any companies capable of tailor-making them for specific projects. Mark Soric aimed to start a company with this goal, and was for a time stationed in the Velocity Garage incubator in Kitchener. At present, the first generation of his design is in the Ingalls lab, with the second generation design currently under construction. See below for a picture of the full machine.
 
-![alt text](http://2018.igem.org/wiki/images/1/19/T--Waterloo--turbidostatEntire.jpg)
+<center><img src="http://2018.igem.org/wiki/images/1/19/T--Waterloo--turbidostatEntire.jpg" /></center>
 
 The basic design has the following components:
 * A MatLab program run off of a personal computer
@@ -43,4 +43,4 @@ Another interesting and very important aspect of the turbidostat is that it is a
 
 See the image below for the GUI of the turbidostat’s MatLab program (designed primarily by Mark Soric) and its assorted ancilliary data.
 
- ![alt text]( http://2018.igem.org/wiki/images/a/a2/T--Waterloo--turbidostatControlCenter.jpg)
+<center><img src="http://2018.igem.org/wiki/images/a/a2/T--Waterloo--turbidostatControlCenter.jpg" /></center>

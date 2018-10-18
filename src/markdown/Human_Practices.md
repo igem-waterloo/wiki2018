@@ -41,35 +41,57 @@
 ### Improving Communication
 
 &nbsp;&nbsp;&nbsp;&nbsp;While working on our IAT project and compiling the results, we noticed that some words were being “missorted” (sorted into the wrong category). This indicated that some of our audience may be less familiar with some of the synthetic biology vocabulary we use (in particular, the word “optogenetics” was the most missorted word in the synbio category). In order to increase public understanding of what synthetic biology is and in particularly, what iGEM Waterloo is working on, we’ve thus decided to create a few ways to help:
-1) A mini-glossary of general synbio terms as well as project-related terms!
-* Simple definitions of concepts and tools used by us and the wider synthetic biology community. Find our glossary below:
-2) Videos all about synbio!
-* Three educational videos to engage the public in a new way, because not everyone learns in the same way
-3)  Conscious Presentation
-* Changing our language when we speak to others about our project to be informative, without being intimidating
 
-I’d like the bullet points to be double indented ie with the smaller bullet point that’s only a black outline, white circle 
-As exemplified here
+i)  A mini-glossary of general synbio terms as well as project-related terms!
+
+ * Simple definitions of concepts and tools used by us and the wider synthetic biology community. Find our glossary below:
+ 
+ii)  Videos all about synbio!
+
+ * Three educational videos to engage the public in a new way, because not everyone learns in the same way
+ 
+iii)  Conscious Presentation
+
+ * Changing our language when we speak to others about our project to be informative, without being intimidating
 
 **Amino acid**: The building blocks that make up proteins
+
 **Bacteriophage**: A virus that can only infect bacteria
+
 **BioBricks**: DNA pieces that we can use to create larger, newer sequences to give bacteria new abilities
+
 **Biotechnology**: Using biology to help with industrial and technological processes, like having _E. coli_ produce human insulin so it’s less expensive and more accessible to people who need it
+
 **Co-Cultures**: Two or more bacterial cultures living together in the same space at the same time
+
 **Culture**: In synthetic biology, a population of bacteria of the same species and strain
+
 **Enzyme**: A biological catalyst that speeds up biochemical reactions that otherwise would take too long to be helpful to the cell
+
 **_Escherichia coli_**: Also known as _E. coli_, a bacterial species found in many places, often used in synthetic biology because of its simplicity, ease of use, and great characterization
+
 **Flow Cytometer**: A tool that uses lasers to measure the concentration of samples containing fluorescent particles, like bacteria expressing GFP 
+
 **Fluorescence**: Light emitted by something, like GFP,  that has absorbed light or another form of energy
+
 **Genetically Modified Organism (GMO)**: A living thing (organism) that has had its DNA modified to produce a new, novel effect
+
 **Green Fluorescent Protein (GFP)**: A naturally fluorescent protein first isolated from a jellyfish species that can be used to monitor reactions in genetically modified organisms
+
 **Media**: The nutritional substances used to grow microorganisms
+
 **Methionine**: An essential amino acid that contains sulfur, which is usually the first amino acid in a protein
+
 **Optogenetics**: Using light to control living cells, including how quickly or slowly they grow
+
 **Plasmid**: A small, functional piece of DNA that can be introduced into a cell so it can express new genes
+
 **Spectrophotometer**: A tool that uses light, usually ultraviolet or visible, to measure the concentration of a substance in a sample
+
 **Synthetic Biology**: An interdisciplinary crossroads of biology, math, and engineering
+
 **Transformation**: Giving a cell new DNA, often in the form of a plasmid, so that it is genetically altered and may have new functionality
+
 **Turbidostat**: A tool for continuously growing a microorganism at its fastest rate, bring in fresh growth media at the same rate as it takes out spent media. A turbidostat keeps a constant optical density of the growth media...this is also known as _turbidity_!
 
 

@@ -14,13 +14,13 @@ Our system utlizes the Ccas/Ccar System as an optogenetic switch. When exposed t
 
 <center>Note that a Heaviside function is introduced to account for input-response delay in the network. Bacteria will not immediately respond to influence, and internal mechanisms will introduce delay.</center>
 
-\\[\frac{d\textrm{Prom}_{a}}{dt} = \alpha_0 + \alpha \frac{\textrm{CcaR}_{a} (t)}{k + \textrm{CcaR}(t)}\\]
+\\[\frac{d\textrm{Prom}_{a}(t)}{dt} = \alpha_0 + \alpha \frac{\textrm{CcaR}_{a} (t)}{k + \textrm{CcaR}(t)}\\]
 
 \\[ \frac{d\textrm{MetE}(t)}{dt} = k\textrm{Prom}_{a}(t) \\]
 
-\\[\textrm{Logistic}(t) =  \left( A+\frac{K-A}{(C+Qe^{-\beta t})^{1/\nu}} \right)\\]
+\\[\textrm{Logistic}(t) =  \left( A+\frac{K-A}{(1+Qe^{-\beta t})^{1/\nu}} \right)\\]
 
-<center>All parameters excluding \\(t\\) (being time) are parameters which are up to experiment. Some parameters (such as C and Q) can be determined *a priori* based on the goals of our experiment. Q specifically is related to our boundary conditions, while C can simply be set to 1. </center>
+<center>All parameters excluding \\(t\\) (being time) are parameters which are up to experiment. Q can be determined *a priori* based on the goals of our experiment, being specifically is related to our boundary conditions. </center>
 
 \\[ \frac{d\textrm{MetE}(t)}{dt} = \textrm{Logistic}\_{1} (t) \cdot \textrm{CcaR}_{a}(H(t - \tau_2)\cdot |t|) \\]
 
@@ -30,26 +30,24 @@ Our system utlizes the Ccas/Ccar System as an optogenetic switch. When exposed t
 
 \\[ \frac{d\textrm{Prolif}(t)}{dt} =  \textrm{Logistic}\_{4} (t) \cdot \textrm{Met}(H(t- \tau_5)\cdot |t|)+ E_3 (t)\cdot k_5 \\]
 
-\\[\frac{dE_i}{dt} = \textrm{Prolif}(t) \cdot k_i\\]
+\\[\frac{dE_i (t)}{dt} = k_{i}\cdot \textrm{Prolif}(t)\\]
 
-<center>\\(W(t)\\) is a stochastic process - introducing functions like these into the model allows us to account for random/chaotic motion.</center>
+\\[\frac{dp_i (t)}{dt}=(k-d)\textrm{FP}_i (t) + \textrm{D}(t)\\]
 
-\\[\frac{dp_i}{dt}=(k-d)\textrm{GFP}(t) + \textrm{D}(t)\\]
+<center>\\(\textrm{FP}_i (t)\\) is the fluorescent protein corresponding to either culture 1 or culture 2.</center>
 
-\\[\frac{dR}{dt} = \frac{d}{dt} \frac{p_1 (t)}{p_2 (t)} \\]
+\\[\frac{dR (t)}{dt} = \frac{d}{dt} \frac{p_1 (t)}{p_2 (t)} \\]
 
-<center>\\(\frac{dR}{dt}\\) is the ratio which we are trying to control.</center>
+<center>\\(\frac{dR (t)}{dt}\\) is the ratio which we are trying to control.</center>
 
 We determined that this is the most accurate reaction network that could be derived in theory (though it doesn't account for all noise).
 
 ## Moving Horizon Estimate (MHE)
-MHE is a state estimation method that utilizes multiple measurements over time.  These measurements contain noise and other random variations.  However, MHE will allow for the production of estimates of unknown variables and parameters in the measurements despite noise.  MHE necessitates an iterative approach relying on either linear programming or nonlinear programming solvers to find solutions.  This method is particularly useful for nonlinear or constrained dynamic systems for which few general models with established properties and parameters are available.  
-
-Since the optogenetic system we are utilizing is not yet generally modelled with established properties and not much data was available prior to experimentation, MHE was used in this project due to its capacity to estimate unknown variables and parameters during optimization.
+MHE is a state estimation method that utilizes multiple measurements over time.  These measurements contain noise and other random variations.  However, MHE will allow for the production of estimates of unknown variables and parameters in the measurements despite noise.  MHE necessitates an iterative approach relying on either linear programming or nonlinear programming solvers to find solutions.  This method is particularly useful for nonlinear or constrained dynamic systems for which few general models with established properties and parameters are available. We selected MHE due to its performance in environments where parameters are not precisely known.
 
 MHE works by adjusting initial conditions and parameters within a model to align measured and predicted values.  To do this it uses an internal dynamic model, an optimization cost function over the estimation horizon, and requires a history of past measurements.
 
-## Error Dynamics of a Linearization of Our Model
+## Error Dynamics of a Linearization of Our Model <sup>3</sup>
 
 For a control system such as ours, the error dynamics are critical to derive. We will assume the following linearization of our model:
 
@@ -59,21 +57,21 @@ For a control system such as ours, the error dynamics are critical to derive. We
 
 We will use the following constrained convex optimization formulation of MHE:
 
-\\[\min_{\hat { x }_{T - N | T } , \hat { W } _ { T - N | T } ^ { T - 1 } } \| \hat { x } _ { T - N | T } - x _ { T - N | T } \| ^ { 2 } - \| Y _ { T - N } ^ { T - 1 } - \mathcal { O } \hat { x } _ { T - N | T } - \overline { c b } U _ { T - N } ^ { T - 2 } \|^2 + \sum _ { k = T - N } ^ { T - 1 } \left\| \hat { w } _ { k } \right\| ^ { 2 } + \sum _ { k = T - N } ^ { T } \left\| \hat { v } _ { k } \right\| ^ { 2 },\\]
+\\[\min_{\hat { x }_{T - N | T } , \hat { W } _ { T - N | T } ^ { T - 1 } } \|| \hat { x } _ { T - N | T } - x _ { T - N | T } \|| ^ { 2 } - \|| Y _ { T - N } ^ { T - 1 } - \mathcal { O } \hat { x } _ { T - N | T } - \overline { c b } U _ { T - N } ^ { T - 2 } \||^2 + \sum _ { k = T - N } ^ { T - 1 } \|| \hat { w } _ { k } \|| ^ { 2 } + \sum _ { k = T - N } ^ { T } \|| \hat { v } _ { k } \|| ^ { 2 },\\]
 
 such that  \\(\hat { x } _ { k + 1 } = A \hat { x } _ { k } + B u _ { k } + G \hat { w } _ { k } , \quad \hat { y } _ { k } = C \hat { x } _ { k } + \hat { v } _ { k }​\\),
 
-where \\(T​\\) is the current time, \\(x,y,u​\\) are the population ratio, light measurement, and output signal vectors of the system, \\(w, v​\\) are the process disturbance noises and the measurement noise respectively,
+where \\(T​\\) is the current time, \\(x\\) is the population ratio, \\(y\\) is the GFP output, and \\(u\\) is the optimal light output duration. In addition, \\(w, v​\\) are the process disturbance noises and the measurement noise respectively,
 
 \\[Y _ { T - N } ^ { T } = \left[ y _ { T - N } ^ { T } , \dots , y _ { T } ^ { T } \right] ^ { T }​\\]
 
-is the vector containing the past \\(N​\\) inputs at time \\(T​\\) with the \\(U​\\) variant defined analagously, and \\(Q \succeq 0, R \succeq 0, P_{T-N|T-1} \succeq 0​\\) are the covariances of \\(w,v,x​\\) assumed to be symmetric and time invariant for the steady state MHE. The matrix \\(\mathcal{O}​\\) is defined in Tenney (2002).
+is the vector containing the past \\(N​\\) inputs at time \\(T​\\) with the \\(U​\\) variant defined analagously, and \\(Q \succeq 0, R \succeq 0, P_{T-N|T-1} \succeq 0​\\) are the covariances of \\(w,v,x​\\) assumed to be symmetric and time invariant.
 
 The error dynamics of this model are as follows:
 
 \\(e_{t+1} = \sum_{i} Error_{i}e_{t} + D_{i} d\\). With the first term being the estimation error, and \\(D_{i}d\\) being the error introduced by disturbing the system during measurement.
 
-We have the following equations which were derived in Voelker (2013):
+#### Definitions:
 
 \\[Error_i = MS_i F_e M^{-1},\\]
 
@@ -118,31 +116,39 @@ We have the following equations which were derived in Voelker (2013):
 # Background Research
 ## Characterizing Gene Expression with Green and Red Light for CcaS-CcaR
 The CcaS-CcaR system is activated by green light, and deactivated by red light.
-To determine whether or not we should keep green or red light constant and modulate the other, and at what intensity this colour of light should be kept constant, literature data was used to fit parameters for hill functions.  The hill functions for the affect of red and green light on gene expression were then plot against eachother three-dimensionally.  From this plot, an optimal range of gene expression can be picked and the value of intensity of either constant green or constant red light can be determined.  Therefore, from this analysis we know whether to modulate green or red light while keeping the other at constant value, as well as what constant value should be maintained, to provide an optimal gene expression range.
+To determine whether or not we should keep green or red light constant and modulate the other, and at what intensity this colour of light should be kept constant, literature data was used to fit parameters for hill functions.  The hill functions for the affect of red and green light on gene expression were then plot against each other three-dimensionally.  From this plot, an optimal range of gene expression can be picked and the value of intensity of either constant green or constant red light can be determined.  Therefore, from this analysis we know whether to modulate green or red light while keeping the other at constant value, as well as what constant value should be maintained, to provide an optimal gene expression range.
+
 #### Green Light
+
 Steady state protein expression from the CcaS-CcaR system was plotted with an increasing intensity of green input light.  The data was obtained from literature experiments and during these experiments, red light was held constant at an intensity of 1.05 W/m<sup>2</sup>.<sup>2</sup>
 To capture the trend of the data and assign a single function across the entire range, curve fitting was performed.  A negative exponential curve fits the data well with the following attributes and values:
-Exponential function:
-y= a + b<sup>exp(c<sup>x</sup>)</sup>
+Exponential function: \\(y = a+b^{\textrm{exp}({c^{2})}}\\)
 
 - R<sup>2</sup>=0.96
 - Mean Squared Error=3.8
 - a=76.6
 - b=-71.2
 - c=-0.005
-  ![Hill function for green light](http://2018.igem.org/wiki/images/0/08/T--Waterloo--GreenLight_HillFxn.png)
+
+<center>![Hill function for green light - plot](http://2018.igem.org/wiki/images/0/08/T--Waterloo--GreenLight_HillFxn.png)</center>
+
 #### Red Light
+
 The same analysis was done with red-light intensity.  Currently data is not available for CcaS-CcaR, therefore expression values for the Cph8-OmpR optogenetic system were used in its place.<sup>2</sup>
-Exponential function:
-y= a + b<sup>exp(c<sup>x</sup>)</sup>
+Exponential function: \\(y = a+b^{\textrm{exp}({c^{2})}}\\)
+
 - R<sup>2</sup>=0.96
 - Mean Squared Error=5.2
 - a=23.98
 - b=94.1
 - c=-0.007
-  ![Hill function for red light](http://2018.igem.org/wiki/images/2/25/T--Waterloo--HillFxn_RedLight.png)
+
+<center>![Hill function for red light - plot](http://2018.igem.org/wiki/images/2/25/T--Waterloo--HillFxn_RedLight.png)</center>
+
 #### 3-D Plot
-![Hill Function 3d plot](http://2018.igem.org/wiki/images/1/17/T--Waterloo--Hillxn_3d.png)
+
+<center>![Hill Function - 3d plot](http://2018.igem.org/wiki/images/1/17/T--Waterloo--Hillxn_3d.png)</center>
+
 ## Setting the Frequency and Duty Cycle for Light Modulation
 
 To alter gene expression of the optogenetic system, the modulation of light can be used to provide different degrees of gene expression. In turn, the modulation of light can be affected by changing the either the frequency or period of modulation, or the duty cycle. However, changing the frequency or period, or changing the duty cycle will have effects on observed gene expression.<sup>1</sup> For the purposes of our system, it was decided to alter the duty cycle and keep the frequency constant.
@@ -156,8 +162,8 @@ Thus, to vary the amount of light being delivered to the system to provide a con
 
 #### References:
 
-**1.** Davidson, E. A., Basu, A. S., & Bayer, T. S. (2013). Programming Microbes Using Pulse Width Modulation of Optical Signals. *Journal of Molecular Biology*, 425(22), 4161–4166. doi:10.1016/j.jmb.2013.07.036
+**1.** Davidson, E. A., Basu, A. S., \& Bayer, T. S. (2013). Programming Microbes Using Pulse Width Modulation of Optical Signals. *Journal of Molecular Biology*, 425(22), 4161–4166. doi:10.1016/j.jmb.2013.07.036
 
-**2.** Olson, E. J., Hartsough, L. A., Landry, B. P., Shroff, R., & Tabor, J. J. (2014). Characterizing bacterial gene circuit dynamics with optically programmed gene expression signals. Nature Methods, 11(4), 449-455. doi:10.1038/nmeth.2884
+**2.** Olson, E. J., Hartsough, L. A., Landry, B. P., Shroff, R., \& Tabor, J. J. (2014). Characterizing bacterial gene circuit dynamics with optically programmed gene expression signals. Nature Methods, 11(4), 449-455. doi:10.1038/nmeth.2884
 
 **3.** Voelker, Anna, Konstantinos Kouramas, and Efstratios N. Pistikopoulos. "Moving Horizon Estimation: Error Dynamics and Bounding Error Sets for Robust Control." Automatica 49, no. 4 (2013): 943-48. Accessed October 16, 2018. doi:10.1016/j.automatica.2013.01.008.

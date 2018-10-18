@@ -54,7 +54,7 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 
 ## Empty DH5alpha
 
-![Empty DH5](http://2018.igem.org/wiki/images/9/92/T--Waterloo--MeetMicro_dh5.png) 
+![Empty DH5](http://2018.igem.org/wiki/images/9/9b/T--Waterloo--MeetMicro_empty.png) 
 
 #### Strain 
 - _Escherichia coli_ DH5alpha 

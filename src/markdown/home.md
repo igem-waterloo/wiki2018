@@ -14,4 +14,4 @@ This would open several doors in biotech and research. For instance, metabolic e
 <source src="http://2018.igem.org/wiki/images/e/e4/T--Waterloo--IntroVideo.mp4" type="video/mp4">
 </video>
 
-[Video Transcript](http://2018.igem.org/wiki/images/b/b5/T--Waterloo--CoCultureTranscript.pdf) 
+[Video Transcript](http://2018.igem.org/wiki/images/b/b5/T--Waterloo--IntroTranscript.pdf)

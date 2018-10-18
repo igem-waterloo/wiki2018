@@ -6,7 +6,7 @@ First of all, we have demonstrated that our method of controling growht (MetE) i
 ## We can monitor two populations in a co-culture
 Secondly, we have demonstrated that we can monitor changes of individual population numbers within a co-culture. In order to monitor and maintain our co-culture we needed a method to track what was happening with each of the populations over time. We did this by marking one of the two populations with a fluorescent protein (GFP). Then we used a flow cytometer to compare the number of fluorescent cells to non fluorescent cells in our culture. We confirmed that this method works by comparing our results from the flow cytometer to colony forming unit counts. 
 
-Refer to the experiment entitled _Measurement- GFP vs Non Fluorescent- for more information.
+Refer to the experiment entitled _Measurement- GFP vs Non Fluorescent- for more information_ .
 
 ## We can control growth rates with lights
 on/of/mix

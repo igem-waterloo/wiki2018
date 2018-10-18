@@ -19,7 +19,10 @@
 
 
 
-<img align="left" src="http://2018.igem.org/wiki/images/5/56/T--Waterloo--MeetMicro_JT2.png">
+
+
+<img align="right" src="http://2018.igem.org/wiki/images/5/56/T--Waterloo--MeetMicro_JT2.png">
+
 
 
 
@@ -40,11 +43,16 @@ It also has a Kanamycin resistance gene in its genome.
 **Can produce methionine?** No 
 
 
+
+ 
+ 
  
 
 
 
 <img align="left" src="http://2018.igem.org/wiki/images/c/c9/T--Waterloo--MeetMicro_GFP.png">
+
+
 
 **Strain**: _Escherichia coli_ DH5alpha 
 
@@ -62,7 +70,12 @@ It also has a Kanamycin resistance gene in its genome.
 
 
 
-<img align="left" src="http://2018.igem.org/wiki/images/9/92/T--Waterloo--MeetMicro_dh5.png">
+
+<img align="right" src="http://2018.igem.org/wiki/images/9/92/T--Waterloo--MeetMicro_dh5.png">
+
+
+
+
 
 **Strain**: _Escherichia coli_ DH5alpha
 

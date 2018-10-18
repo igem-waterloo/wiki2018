@@ -155,23 +155,23 @@ _Red light was on for 100% of the 7.3h run for all samples_
 
 For each green light ratio, two tubes of M9 (without methionine) were inoculated with JT2 cells with CcaS/R from an overnight culture in LB. All tubes were then grown in the turbidostat under one of the three green light conditions for 7.3 hours. 
 
-<img src="http://2018.igem.org/wiki/images/d/d5/T--Waterloo--Lab-turb2.jpeg">
+<center><img src="http://2018.igem.org/wiki/images/d/d5/T--Waterloo--Lab-turb2.jpeg">
 
 The first three hours of the run were dedicated to adjusting the cultures to their designated light condition. This was done to prevent any noise from previous growing environment of the cells (such as light contamination) [1] from effecting our measurements.
 
 Once three hours had passed we began to monitor our cultures using OD<sub>600</sub> measurements in intervals of 20 min for 4.3 hours. Below outlines those measurements:
 
-<img src="http://2018.igem.org/wiki/images/0/02/T--Waterloo--Lab-chart.png">
+<center><img src="http://2018.igem.org/wiki/images/0/02/T--Waterloo--Lab-chart.png"></center>
 
 The doubling time of each population was determined by plotting log OD 600 values against time in minutes and taking the slope of the linear portion of the curve. Here are the growth curves for each of the samples and the doubling times we calculated from them:
 
-<img src="http://parts.igem.org/wiki/images/3/34/T--Waterloo-Results-CcaSR_Full_green_graph.png" align="middle">
+<center><img src="http://parts.igem.org/wiki/images/3/34/T--Waterloo-Results-CcaSR_Full_green_graph.png" align="middle"></center>
 
-<img src="http://parts.igem.org/wiki/images/3/36/T--Waterloo-Results-CcaSR_Full_red_graph.png" align="middle">
+<center><img src="http://parts.igem.org/wiki/images/3/36/T--Waterloo-Results-CcaSR_Full_red_graph.png" align="middle"></center>
 
-<img src="http://parts.igem.org/wiki/images/1/13/T--Waterloo-Results-Half_Green_Graph.png" align="middle">
+<center><img src="http://parts.igem.org/wiki/images/1/13/T--Waterloo-Results-Half_Green_Graph.png" align="middle"></center>
 
-<img src="http://2018.igem.org/wiki/images/5/5e/T--Waterloo--doubling-time_JT2.png" align="middle">
+<center><img src="http://2018.igem.org/wiki/images/5/5e/T--Waterloo--doubling-time_JT2.png" align="middle"></center>
 
 In conclusion, growth of JT2 with CcaS/R is significantly slowed under red light in comparison to its growth under full or medium green light. Interestingly, JT2 in this experiment  has a faster growth rate in medium green light compared to full green light. This may indicate that metE imposes a metabolic load on our cells if overproduced. However, further experiments need to be preformed to fully confirm that this is the case. We will preform another growth curve experiment at a wider range of green light ratios in the next few days to get a better idea on why see this. 
 

@@ -1,7 +1,6 @@
+# Methionine Sharing Experiment
 
 ![metSharing](http://2018.igem.org/wiki/images/9/95/T--Waterloo--Results_MetSharing.jpg)
-
-# Methionine Sharing Experiment
 
 Multiple trials went underway for the growth of empty JT2 in knockout MetE media to definitively confirm that the predicted results occured in regards to CcaS/R JT2 and empty JT2 growth. As the goal of the experiment was to assure that there was no “leaking” of methionine from the CcaS/R JT2 cells when stimulated with methionine production, leaking that could support the growth of another population. The following test matrix was performed to assess the possibilty. 
 
@@ -127,17 +126,13 @@ These results lead us to believe that the flow cytometer is representative of po
 
 Four sample tubes of JT2 CcaS/R-containing cells in M9 were made, and all were placed in the turbidostat.  The samples were made by inoculating the cells off a plate into complete M9 made with casamino acids as the amino acid source.
 
-Two samples were grown under only red light, and two under only green light.  The samples were optically insulated from each other.  The cells were allowed to grow for 3 hours to acclimatize them to the light conditions they were being kept under.  By defining the time of the first OD measurement as time 0, the following trend of OD versus time was obtained (the first time point was excluded because OD was measured incorrectly at that time):
+Two samples were grown under only red light, and two under only green light.  The samples were optically insulated from each other.  The cells were allowed to grow for 3 hours to acclimatize them to the light conditions they were being kept under.
 
-![alt text](http://2018.igem.org/wiki/images/5/58/T--Waterloo--August21_ODvsTime.png)
+Unfortunately, though the doubling times for the two green-light samples were 53.8 and 55.8 minutes, the doubling times for the samples grown under red light were 45.3 and 61.2 minutes. The red-light sample doubling times were too far apart to be averaged reasonably, and therefore no conclusion could be drawn from the experiment.
 
-Upon converting this data to instantaneous growth rate over time, it became clear that doubling time was changing gradually but appreciably as OD increased.  Therefore, to analyze the data, instantaneous doubling time was plotted against OD.  The following graph was attained:
+Additionally, the team realized that the metabolic load of MetE may be different in media made with casamino acids versus media made with an amino acid mixture without methionine. Therefore, the experiment was not repeated and estimates of metabolic load would henceforth only be obtained by observing growth rates under different light conditions in M9 made without methionine.
 
-![alt text](http://2018.igem.org/wiki/images/5/59/T--Waterloo--August21_doublingTimeVsOD.png)
-
-Though it is unfortunate that doubling time increases with OD, the general trend appears to be approximately the same regardless of light conditions.  Therefore, it was determined that the metabolic load of MetE expression was negligible if it existed at all.  See pages 77 to 79 in the online lab book for additional details.
-
-NOTE: The increase of doubling time with OD was most likely a result of bad stirring, and hence poor aeration, of the samples in the turbidostat.  This can be avoided in the future.
+See pages 77 to 79 in the online lab book for additional details.
 
 # “Robot” Experiments
 
@@ -204,3 +199,15 @@ From the above observations, it became clear that the best setup was to have the
 The fluorescence values are a simple average between the values for the duplicates. As one can see, strain 346 is clearly more fluorescent than JT2, and the mixture is of an intermediate fluorescence. This confirms that the system can be used to measure fluorescence and distinguish between different mixtures of fluorescent and non-fluorescent cells. The mixture should have been ~50% fluorescent cells, and by linear interpolation from the data obtained one can get that the mixture is 58% fluorescent cells (from the calculation (100%)*(94.7-71.85)/(111.25-71.85)).
 
 ## Second Design and Future Experiments
+
+The “robot” used to measure fluorescence, now no longer housed in a box, was used to attempt to estimate the ratios of different populations in a co-culture. The sample tube contained both DH5α containing GFP and empty DH5α.
+
+The setup as a whole consisted of a camera with our filter in front of it, a sample tube 15 cm away from this camera, and our blue LED (which was 10 cm away from our sample). The setup looked as follows:
+
+![alt text](http://2018.igem.org/wiki/images/f/f8/T--Waterloo--robotAttempt.jpg)
+
+The actual image of the sample on the camera appeared as follows:
+
+![alt text](http://2018.igem.org/wiki/images/e/e0/T--Waterloo--robotAttemptImage.jpg)
+
+During the experiment, we intended to use a flow cytometer to confirm the population ratios, but unfortunately it broke the day before the experiment was set to run. Accordingly, we do not have confirmation that the robot correctly estimated the population ratios. However, the experiment was done in duplicate and the population were monitored over two hours, and the duplicates did at least have very similar average RGB values. This means that the machine was at least precise, even if we cannot speak to its accuracy.

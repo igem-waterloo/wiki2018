@@ -1,34 +1,46 @@
-
 Our project would not have been possible without the help of several people. Here, we would like to take the time to recognise and thank everyone who helped us on our journey this year! 
 
 ## Project Development
 
 The 2018 iGEM project E. Co-light was a team effort and would not be possible without hours of research done to make this project a reality, from those who were involved in the project development phase, to those who contributed as the year progressed. 
 
-Special thanks to Jyler Menard for finding many of the papers regarding MetE as a control mechanism for cell growth.
+Special thanks to Waterloo iGEM member Jyler Menard for finding many of the papers regarding MetE as a control mechanism for cell growth.
 
-The original idea for optogenetically controlled co-cultures was developed by Cody Receno as part of the BIOL 349 (Synthetic Biology Project Design) course, co-taught by Trevor Charles and Brian Ingalls.
+The original idea for optogenetically controlled co-cultures was developed by the Math co-lead Cody Receno as part of the BIOL 349 (Synthetic Biology Project Design) course, co-taught by Trevor Charles and Brian Ingalls.
+
+## Advisors
+
+We would like to give a huge thank you to all the advisors of the Waterloo iGEM Team. They have helped the team immensely over the years and we can not be more grateful. From things like giving feedback on potential projects, troubleshooting, finances, and even networking-- all of the advisors were very helpful.
+
+* Barb Moffatt
+* Brian Ingalls
+* Trevor Charles
+* Andrew Doxey
+* Marc Aucoin
+* Valerie Ward
+* Tenzing Kuyee
 
 ## Interlab 
-We would like to extend our most sincere gratitude to Prof. Raymond Legge (Dept. of Chemical Engineering, University of Waterloo) and Andrew Assatory, a graduate student working under Prof. Legge. These results would not have been possible without their assistance. Prof. Legge kindly allowed us to use his BioTek Synergy 4 plate reader on very short notice, and Andrew accommodated our use of the plate reader into his busy schedule.
+
+We would like to extend our most sincere gratitude to Professor Raymond Legge (Department of Chemical Engineering, University of Waterloo) and Andrew Assatory, a graduate student working under Professor Legge. These results would not have been possible without their assistance. Professor Legge kindly allowed us to use his BioTek Synergy 4 plate reader on very short notice, and Andrew accommodated our use of the plate reader into his busy schedule. Professor Josh Neufeld (Department of Biology, University of Waterloo) aided us by providing a plate reader for the first attempt of following the Interlab protocol.  
 
 ## Administrative Help
 
 Lucy Satora - Provided help with administrative and shipment for the team
 
-Jen Lehman - Provided help with finances, accessing funds, and booking of hotels for the Waterloo iGEM team.
+Jen Lehman - Provided help with finances, accessing funds, and booking of hotels for the Waterloo iGEM team
 
 ## Co-op Student
 
-Nicole Lassel was a co-op student in the Waterloo iGEM lab this summer. She dedicated herself 
+Waterloo iGEM member Nicole Lassel was a co-op student in the Waterloo iGEM lab this summer. She dedicated herself full time to the lab and handled many of the day to day operations.
 
 ## Conferences
 
-Thank you to Western University’s Bogumil Karas for allowing member of the Waterloo iGEM team to speak about iGEM and our project at the Western Syn Bio Symposium 3.0
+Thank you to Western University’s Bogumil Karas for allowing member of the Waterloo iGEM team to speak about iGEM and our project at the Western Syn Bio Symposium 3.0.
 
 ## Wiki and Logo Development
 
-The wiki was only possible due to the large amount of work that Nicki Shaw and Michael Astwood had put in throughout the year.
+The wiki was only possible due to the large amount of work that Waterloo iGEM Members: Nicki Shaw and Michael Astwood had put in throughout the year. Along with the wiki, Nicki and Michael have also created the logo for our team.
 
 ## Hardware Support
 
@@ -37,5 +49,12 @@ We would like to give thanks to Mark Soric, Brian Ingalls, and Matt Scott for al
 ## General Support
 
 Thank you to Nathan Branff for providing us with support and knowledge regarding optogenetics and mathematical models.
+
+## Sponsors
+
+
+Thank you to our sponsors for supporting the work of the 2018 Waterloo iGEM team. This project is thanks to the funding and support received by them.
+
+![sponsors](http://2018.igem.org/wiki/images/9/99/T--Waterloo--sponsors.png "Sponsors for Waterloo iGEM 2017")
 
 

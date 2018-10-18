@@ -47,6 +47,7 @@ One of our team members, Max Reed, who led our [amyloid-related iGEM project](ht
  **SynBio Postcards**
  
 ![postcard](http://2018.igem.org/wiki/images/b/b2/T--Waterloo--Collaborations_Postcard.jpg) 
+
 We participated in Heinrich-Heine University, Duesseldorf's [postcard collaboration](http://2018.igem.org/Teams/Collaborations#collab_1) along with several iGEM teams from all over the world. We designed a postcard communicating our project visually. The purpose was to increase public awareness of synthetic biology and our projects. Here's our postcard: 
 
 Check out [other teams' postcards](http://2018.igem.org/Team:Duesseldorf/Collaborations)! 

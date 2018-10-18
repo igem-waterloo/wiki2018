@@ -17,5 +17,19 @@ We’re going to control the production of MetE,  an enzyme that catalyses the r
 # What is CcaS/R? 
 CcaS/R is a light-switchable system derived from cyanobacteria which can be introduced into E. coli [1]. This system can be used to create a long term optical feedback system for gene expression in the bacterial culture. CcaS/R is a three part system consisting of CcaS, CcaR and the associated promoter region. The gene of interest, MetE in our case, is placed under the promoter region so that its expression can be controlled. CcaS is the “sensor” protein which detects the wavelength of light. CcaR is the regulator protein which binds to the promoter, which modulates gene expression when green light is detected and stops expression when red light is detected [1].
 
+# How our sytem works
+## On
+With green light on, CcaS/R is activated, and promotes MetE expresssion. This leads to growth of the bacterial population! 
+
+![active](http://parts.igem.org/wiki/images/3/3d/T--Waterloo-Ccas_how_it_works_Green.png)
+
+## Off 
+With red light on, CcaS/R is inactive. MetE is not expresssed and methionine is thus not produced. In a medium that lacks methionine, this stalls growth!
+
+![inactive](http://parts.igem.org/wiki/images/6/67/T--Waterloo--CcasR_How_it_works_Red.png)
+
+## Fine Tune 
+Our system is not only an on/off switch. We can also fine tune growth of bacterial populations.
+
 # References 
 [1] A. Milias-Argeitis, M. Rullan, S. K. Aoki, P. Buchmann, and M. Khammash, “Automated optogenetic feedback control for precise and robust regulation of gene expression and cell growth,” Nature Communications, vol. 7, p. 12546, 2016.

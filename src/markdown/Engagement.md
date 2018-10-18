@@ -1,6 +1,6 @@
 <center><img src="http://2018.igem.org/wiki/images/3/34/T--Waterloo--hp-E%2BE2.png" /></center>
 
-&nbsp;&nbsp;&nbsp;&nbsp;iGEM Waterloo has made passionate efforts in Public Education and Engagement! Specifically, we’ve hosted a hands-on synthetic biology workshop for SHAD high school students, we’ve hosted a Literacy Workshop in which we taught students how to read and understand technical papers, and we’ve created several videos ranging from general public education to more technical educational videos to promote synthetic biology and provide public education. To learn more, read on!
+&nbsp;&nbsp;&nbsp;&nbsp;iGEM Waterloo has made passionate efforts in Public Education and Engagement! Specifically, we have hosted a hands-on synthetic biology workshop for SHAD high school students, hosted a Literacy Workshop in which we taught students how to read and understand technical papers, and created several videos ranging from general public education to more technical educational videos to promote synthetic biology and provide public education. To learn more, read on!
 
 ## The SHAD Workshop  
 
@@ -14,18 +14,20 @@
 
 _Day 1:_  
 
-* Presentation introducing SHADs to genetics, synthetic biology, and iGEM. Lab safety presentation.
-* Miniprep plasmids with a colourful protein (RFP).  
+* Presentation introducing SHADs to genetics, synthetic biology, and iGEM 
+* Presenation introducing and emphasizing Laboratory Safety presentation
+* Miniprep plasmids with a colourful protein (RFP)  
 
 _Day 2:_  
 
-* Presentation on the practical applications of synthetic biology, as well as potential careers in the field.
-* Heat shock transformation of the SHADs’ plasmid into E. coli. Bacteria drawing/art!  
+* Presentation on the practical applications of synthetic biology, as well as potential careers in the field
+* Heat shock transformation of the SHADs’ plasmid into E. coli 
+* Bacteria drawing/art!  
 
 _Day 3:_  
 
 * Looking at results of heat shock transformation and bacteria art, discussing the science behind it!
-* Presentation on ethical dilemmas in synthetic biology (GMOs, designer babies, and patenting life), presenting both sides of the debate and encouraging discussions.  
+* Presentation on ethical dilemmas in synthetic biology (GMOs, designer babies, and patenting life), presenting both sides of the debate and encouraging discussions  
 
 ### Why We Did It  
 
@@ -55,10 +57,10 @@ _Day 3:_
 ## The Literacy Workshop 
 
 ### Introduction  
-&nbsp;&nbsp;&nbsp;&nbsp;The Literacy workshop was developed with the premise of improving scientific literacy required for work in research. This workshop was an opportunity for University of Waterloo undergraduate students to better understand how to read through and dissect academic literature. iGEM project development, experimental protocol, and project applications are all based on scientific literature and accurate comprehension of academic writing. This workshop was a platform to teach the undergraduate community about knowledge translation and a way to acquire the technical skills utilized by iGEM team members in relation to effective and efficient research.  
+&nbsp;&nbsp;&nbsp;&nbsp;The Literacy Workshop was developed with the premise of improving scientific literacy required for work in research. This workshop was an opportunity for University of Waterloo undergraduate students to better understand how to read through and dissect academic literature. iGEM project development, experimental protocol, and project applications are all based on scientific literature and accurate comprehension of academic writing. This workshop was a platform to teach the undergraduate community about knowledge translation and a way to acquire the technical skills utilized by iGEM team members in relation to effective and efficient research.  
 
 ### Planning Involved  
-&nbsp;&nbsp;&nbsp;&nbsp;The target demographic was first year students with minimal knowledge or exposure to reading scientific literature. This cohort was specifically selected given the numerous amount of technical labs involving report writing and reading that are mandatory in first year. A sample paper was selected to conduct group reading and activities for the workshop. The paper addressed topics that would be covered in first year cellular biology making the concepts accurate to skill and knowledge level.  
+&nbsp;&nbsp;&nbsp;&nbsp;The target demographic was first year students with minimal knowledge or exposure to reading scientific literature. This cohort was specifically selected given the numerous amount of technical labs involving report writing and reading that are mandatory in first year. A sample paper was selected to conduct group reading and activities for the workshop. The paper addressed topics that would be covered in first year cellular biology, making the concepts relevant to skill and knowledge level of the first year students.  
 
 Presentation material was developed and encompassed the following:  
 * Paper dissection of title/abstract, methods, results, discussion, conclusion 
@@ -70,19 +72,19 @@ Presentation material was developed and encompassed the following:
 
 ### Execution and Implementation  
 
-&nbsp;&nbsp;&nbsp;&nbsp;The Policy and Human Practices team prepared a comprehensive presentation breaking down the key features to be found within the various components of an academic paper. Explanations, examples, and visual tools were utilized to communicate information. Executive members were responsible for thorough understanding and digestion of each component of the paper (Introduction, Methods, Results, Discussion) in order to lead discussion and present key findings. Upon completion of academic paper discussion within working groups, participants shared their findings and understanding of the concepts. The end of the workshop encompassed a walk-through on how to utilize University of Waterloo Library resources to access search databases and papers.  
+&nbsp;&nbsp;&nbsp;&nbsp;The Policy and Human Practices team prepared a comprehensive presentation breaking down the key features found within the various components of an academic paper. Explanations, examples, and visual tools were utilized to communicate information. Executive members were responsible for thorough understanding and digestion of each component of the paper (Introduction, Methods, Results, Discussion) in order to lead discussion and present key findings. Upon completion of academic paper discussion within working groups, participants shared their findings and understanding of the concepts. The end of the workshop encompassed a walk-through on how to utilize University of Waterloo Library resources to access search databases and papers.  
 
 ### Literacy Workshop Evaluation  
 
-&nbsp;&nbsp;&nbsp;&nbsp;Feedback and self-improvement are important measures in ensuring the goals of any iGEM policy and practices team are being met. As such, when presented with the opportunity to put on a literacy workshop for students at the University of Waterloo, the PnP team was sure to collect as much data as they could via an exit survey and individual feedback from the attendees of the workshop.  
+&nbsp;&nbsp;&nbsp;&nbsp;Feedback and self-improvement are important measures in ensuring the goals of any iGEM Policy and Practices team are being met. As such, when presented with the opportunity to put on a literacy workshop for students at the University of Waterloo, the Policy and Practices team was sure to collect as much data as it could via an exit survey and individual feedback from the attendees of the workshop.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;Social media outreach was a vital contributor to the workshop’s success, with nearly 40% of all attendees regarding social media as their primary method for learning about the event. In-class outreach was also a large contributor in spreading information about the event, with nearly 60% of all attendees having reported learning about the event in class.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;Feedback regarding the most useful components of the workshop was quite uniform, with 70% of attendees finding the reading and discussion of the paper to be the most effective part of the workshop. The other 30% of attendees found the explanation of the papers by the workshop leads to be the most useful part of the workshop.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;Overall, 100% of attendees reported the workshop to be applicable to personal / school related projects, in addition to finding the subjects and concepts outlined in the workshop to be clear and well-presented.  
+&nbsp;&nbsp;&nbsp;&nbsp;Overall, 100% of attendees reported the workshop to be applicable to personal and/or school related projects, in addition to finding the subjects and concepts outlined in the workshop to be clear and well-presented.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;Moving forward, the PnP team intends to focus on the discussion aspects of the paper review and presenting in a way that promotes further conversation rather than presenting the content in standard Q & A form. A potential idea for future workshops includes allowing attendees to find a paper of their own to review, and simply facilitating the dissection of said paper, rather than explaining a preselected paper. This not only allows attendees to build on critical thinking skills, but also allows for a chance to apply foundational knowledge taught throughout the workshop with regards to a topic of interest to the attendees.  
+&nbsp;&nbsp;&nbsp;&nbsp;Moving forward, the Policy and Practices team intends to focus on the discussion aspects of the paper review and presenting in a way that promotes further conversation rather than presenting the content in standard Q & A form. A potential idea for future workshops includes allowing attendees to find a paper of their own to review, and simply facilitating the dissection of said paper, rather than explaining a preselected paper. This not only allows attendees to build on critical thinking skills, but also allows for a chance to apply foundational knowledge taught throughout the workshop with regards to a topic of interest to the attendees.  
 
 <center><img src="http://parts.igem.org/wiki/images/2/2a/T--Waterloo-E%26E-LitWorkshop2.jpeg" /></center>
 

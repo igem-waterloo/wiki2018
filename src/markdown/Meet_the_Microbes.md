@@ -8,8 +8,7 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 **Plasmids**: None
 
 
-**Antibiotic Resistance(s)**: 
-- Kanamycin
+**Antibiotic Resistance(s)**: Kanamycin
 
 
 **Fluorescent Marker**: None
@@ -43,20 +42,6 @@ ___________________________________
 
 ___________________________________
 
-<img align="left" src="http://2018.igem.org/wiki/images/9/92/T--Waterloo--MeetMicro_dh5.png">
-
-**Strain**: _Escherichia coli_ DH5alpha
-
-**Plasmids**: None
-
-**Antibiotic Resistance(s)** None
-
-**Fluorescent Marker** None
-
-**Can produce methionine?** Yes, with wild type genomic MetE gene. 
-
-___________________________________
-
 <img align="left" src="http://2018.igem.org/wiki/images/c/c9/T--Waterloo--MeetMicro_GFP.png">
 
 **Strain**: _Escherichia coli_ DH5alpha 
@@ -70,3 +55,17 @@ ___________________________________
 **Fluorescent Marker**: GFP, constitutively expressed. 
 
 **Can produce methionine?**: Yes, with wild type genomic MetE gene. 
+
+___________________________________
+
+<img align="left" src="http://2018.igem.org/wiki/images/9/92/T--Waterloo--MeetMicro_dh5.png">
+
+**Strain**: _Escherichia coli_ DH5alpha
+
+**Plasmids**: None
+
+**Antibiotic Resistance(s)** None
+
+**Fluorescent Marker** None
+
+**Can produce methionine?** Yes, with wild type genomic MetE gene. 

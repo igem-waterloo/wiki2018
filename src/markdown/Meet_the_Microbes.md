@@ -17,7 +17,7 @@
 
 
 
-
+________________
 
 
 
@@ -44,6 +44,9 @@ It also has a Kanamycin resistance gene in its genome.
 
 
 
+________________
+
+
  
  
  
@@ -67,6 +70,9 @@ It also has a Kanamycin resistance gene in its genome.
 **Can produce methionine?**: Yes, with wild type genomic MetE gene. 
 
 
+
+
+________________
 
 
 

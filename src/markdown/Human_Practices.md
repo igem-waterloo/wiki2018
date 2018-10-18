@@ -1,4 +1,4 @@
-# ![](http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png) Human Practices ![](http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png)
+<center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center><center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center><center><img src="http://2018.igem.org/wiki/images/e/ec/T--Waterloo--HP-silvermedal_small.png" /></center>
 
 &nbsp;&nbsp;&nbsp;&nbsp;This year, our Human Practices work included a combination of new project ideas, as well as carefully refined projects from previous seasons. We had a strong focus on consulting experts and our work is grouped into four major categories: Societal Considerations, Communication and Public Bias, Public Engagement, and Safety. 
 
@@ -26,7 +26,9 @@
 
 (insert safety icon)
 
-# ![](http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png) Integrated Human Practices ![](http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png)
+# Integrated Human Practices
+
+<img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png" /></center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png" /></center><img src="http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png" /></center>
 
 ### Design Milestones
 

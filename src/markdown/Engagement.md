@@ -84,8 +84,9 @@ Presentation material was developed and encompassed the following:
 
 &nbsp;&nbsp;&nbsp;&nbsp;Moving forward, the PnP team intends to focus on the discussion aspects of the paper review and presenting in a way that promotes further conversation rather than presenting the content in standard Q & A form. A potential idea for future workshops includes allowing attendees to find a paper of their own to review, and simply facilitating the dissection of said paper, rather than explaining a preselected paper. This not only allows attendees to build on critical thinking skills, but also allows for a chance to apply foundational knowledge taught throughout the workshop with regards to a topic of interest to the attendees.  
 
-<left><img src="http://parts.igem.org/wiki/images/2/2a/T--Waterloo-E%26E-LitWorkshop2.jpeg" /></left>
-<right><img src="http://parts.igem.org/wiki/images/a/a7/T--Waterloo-E%26E-LitWorkshop3.jpeg" /></right>
+<center><img src="http://parts.igem.org/wiki/images/2/2a/T--Waterloo-E%26E-LitWorkshop2.jpeg" /></center>
+
+<center><img src="http://parts.igem.org/wiki/images/a/a7/T--Waterloo-E%26E-LitWorkshop3.jpeg" /></center>
 
 ## Videos
 

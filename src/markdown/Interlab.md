@@ -53,9 +53,9 @@ The first attempt was conducted using the Molecular Devices Model F5 reader. The
   <img src="http://parts.igem.org/wiki/images/b/b1/T--Waterloo--Waterloo--Interlab_Fig_1--.png">
 </p>
 
-<p align="center">
+<p align="center"><i>
   Figure 1. Raw absorbance results of calibration #1 attempt #1.
-</p>
+</i></p>
 
 Once problems with calibrations #2 and #3 dictated that the BioTek plate reader was going to be used instead of the Molecular Devices Model F5 reader, it was necessary to repeat calibration #1 with the BioTek plate reader for the sake of consistency. Therefore the second attempt at calibration #1 was conducted using the BioTek Synergy 4 plate reader (figure 2). 
 
@@ -63,9 +63,9 @@ Once problems with calibrations #2 and #3 dictated that the BioTek plate reader 
   <img src="http://parts.igem.org/wiki/images/4/4a/T--Waterloo--Waterloo--Interlab_Fig_2--.png">
 </p>
 
-<p align="center">
+<p align="center"><i>
   Figure 2. Raw absorbance results of calibration #1 attempt #2
-</p>
+</i></p>
 
 This data differs from that obtained in attempt #1, but a different instrument was used to obtain the measurements, so this is expected. The OD<sub>600</sub>/Abs<sub>600</sub> value obtained in attempt #2 was used in all subsequent experiments. 
 
@@ -78,9 +78,9 @@ The first attempt was conducted using the Molecular Devices Model F5 reader, pip
   <img src="http://parts.igem.org/wiki/images/7/74/T--Waterloo--Waterloo-Interlab_Fig_3--.png">
 </p>
 
-<p align="center">
+<p align="center"><i>
   Figure 3. Absorbance plot for calibration #2 attempt #1. Error bars represent standard deviation.
-</p>
+</i></p>
 
 Along with the problems faced with fluorescence readings in calibration #3, these data factors helped inform the decision to switch to the BioTek Synnergy 4 plate reader. 
 
@@ -90,9 +90,9 @@ Attempt #2 (figure 4) was conducted using the BioTek Synergy 4 plate reader, pip
 <img src="http://parts.igem.org/wiki/images/8/8c/T--Waterloo--Waterloo--Interlab_Fig_4--.png">
 </p>
 
-<p align="center">
+<p align="center"><i>
   Figure 4. Absorbance plot for calibration #2 attempt #2. Error bars represent standard deviation.
-</p>
+</i></p>
 
 In addition to the data’s lack of linearity, it was also noted that the wells did not appear to be well-mixed, with visible settling of particles even after pipetting up and down. We hypothesized that uneven settling of particulates caused deviations from the expected linear trend. This made us decide to use the plate reader’s shaking feature in order to provide more even mixing and to prevent settling. 
 
@@ -102,9 +102,9 @@ The third attempt was completed using all of the same specifications as the seco
   <img src="http://parts.igem.org/wiki/images/3/38/T--Waterloo--Waterloo-Interlab_Fig_5--.png">
 </p>
 
-<p align="center">
+<p align="center"><i>
   Figure 5. Absorbance plot for calibration #2 attempt #3. Error bars represent standard deviation.
-</p>
+</i></p>
 
 ### Calibration #3
 Calibration #3 measured the fluorescence of a dilution series of fluorescein solution. Excitation and emission wavelengths of 485 nm and 525 nm respectively were used. Fluorescein is a small molecule with similar fluorescence characteristics to GFP, so these measurements allowed for the construction of a standard curve relating fluorescence to fluorophore concentration. 
@@ -115,9 +115,9 @@ The first attempt was completed using the Molecular Devices Model F5 reader. The
   <img src="http://parts.igem.org/wiki/images/e/e9/T--Waterloo--Waterloo--Interlab_Fig_6--.png">
 </p>
 
-<p align="center">
+<p align="center"><i>
   Figure 6. Fluorescence plot for calibration #3 attempt #1. Error bars represent standard deviation.
-</p>
+</i></p>
 
 These results are not at all as expected. In general, fluorescence increases linearly as a function of concentration, so a linear relationship is expected. This is not observed in the recorded data. Furthermore, all fluorescence readings are extremely low. These factors therefore suggest a significant problem with the plate reader’s ability to measure fluorescence. 
 
@@ -129,9 +129,9 @@ The second attempt was completed using the BioTek Synnergy 4 plate reader. The l
   <img src="http://parts.igem.org/wiki/images/c/ca/T--Waterloo--Waterloo--Interlab_Fig_7--.png">
 </p>
 
-<p align="center">
+<p align="center"><i>
   Figure 7. Fluorescence plot for calibration #3 attempt 2. Error bars represent standard deviation.
-</p>
+</i></p>
 
 ### Cell Measurement Protocol 
 This section of the protocol compared the fluorescence of *E. coli* DHS alpha transformants with each of six test devices and two controls. Two colonies of each transformant were picked and grown overnight in LB + Cm broth. They were then diluted to a provided target OD<sub>600</sub> of 0.10, which was calculated to correspond to an Abs<sub>600</sub> of 0.024. The fluorescence of each diluted sample was then measured with excitation and emission wavelengths of 485 nm and 525 nm respectively. These results are presented in figure 8. Fluorescence was measured immediately after dilution (0h) and after 6h incubation. 
@@ -140,9 +140,9 @@ This section of the protocol compared the fluorescence of *E. coli* DHS alpha tr
   <img src="http://parts.igem.org/wiki/images/b/b8/T--Waterloo--Waterloo--Interlab_Fig_8--.png">
 </p>
 
-<p align="center">
+<p align="center"><i>
   Figure 8. Absolute fluorescence of each control and device at t = 0h and t = 6h.
-</p>
+</i></p>
 
 For each sample, the equivalent concentration of fluorescein per particle was then calculated using fluorescence and absorbance measurements, as well as the conversion factors calculated in the calibrations. This corresponds approximately to the concentration of fluorescein molecules that gives the same fluorescence as one bacterial cell. Greater values indicate higher expression of GFP for that device (figure 9).
 
@@ -150,9 +150,9 @@ For each sample, the equivalent concentration of fluorescein per particle was th
   <img src="http://parts.igem.org/wiki/images/2/2d/T--Waterloo--Waterloo--Interlab_Fig_9--.png">
 </p>
 
-<p align="center">
+<p align="center"><i>
   Figure 9. Equivalent fluorescein fluorescence per particle of each control and device at t = 0h and t = 6h.
-</p>
+</i></p>
 
 The controls and devices all show different levels of fluorescence, with the negative control and device 3 being the lowest and devices 1 and 4 being the highest. Large variation in the size of error bars indicates that some devices showed good repeatability, while others (especially device 5) did not.
 
@@ -169,9 +169,9 @@ The cultures were diluted further and spread onto LB agar + Cm plates, giving fi
   <img src="http://parts.igem.org/wiki/images/3/30/T--Waterloo--Waterloo--Interlab_Fig10.png">
 </p>
 
-<p align="center">
+<p align="center"><i>
   Figure 10. Calculated CFU/mL values for each dilution for each colony.
-</p>
+</i></p>
 
 These data are relatively poor because of the very large error bars. These error bars are especially large for 8x10<sup>6</sup>. This can be attributed to the very low colony counts on these plates, which were as low as 1 or 0 for some plates. Results drawn from such low colony counts are not statistically sound. 8x10<sup>4</sup> and 8x10<sup>5</sup> produced poor data for similar reasons, but the error is less extreme. However, some general conclusions may be drawn. 
 

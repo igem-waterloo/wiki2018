@@ -49,69 +49,19 @@ MHE works by adjusting initial conditions and parameters within a model to align
 
 ## Error Dynamics of a Linearization of Our Model <sup>3</sup>
 
-For a control system such as ours, the error dynamics are critical to derive. We will assume the following linearization of our model:
+For a control system such as ours, the error dynamics are critical to derive. In order to make the dynamics feasible, we only consider the error dynamics of controlling a single population under this linear model:
 
-(insert equations)
+\\[x_{k+1} = x_k + 0.025u_k + 0.05w_k,\\]
 
-(description of variables)
+\\[y_k = Cx_k + 0.05v_k\\]
 
-We will use the following constrained convex optimization formulation of MHE:
+where \\(x\\) is the doubling time, \\(y\\) is the population, \\(u\\) is the light intensity and \\(w,v\\)  are the process disturbance and measurement noise respectively. C is the proportionality constant in \\(\frac{dp_i (t)}{dt}=C\cdot\textrm{FP}_i (t) + \textrm{D}(t)\\)
 
-\\[\min_{\hat { x }_{T - N | T } , \hat { W } _ { T - N | T } ^ { T - 1 } } \|| \hat { x } _ { T - N | T } - x _ { T - N | T } \|| ^ { 2 } - \|| Y _ { T - N } ^ { T - 1 } - \mathcal { O } \hat { x } _ { T - N | T } - \overline { c b } U _ { T - N } ^ { T - 2 } \||^2 + \sum _ { k = T - N } ^ { T - 1 } \|| \hat { w } _ { k } \|| ^ { 2 } + \sum _ { k = T - N } ^ { T } \|| \hat { v } _ { k } \|| ^ { 2 },\\]
+Error dynamics are constructed by first applying the Karush-Kahn-Tucker (KKT) Conditions to the optimal problem solved by the MHE at a time \\(T\\), deriving the error dynamics at \\(T-N\\) and then use the equations derived to obtain the error dynamics at time \\(T\\). Following this standard technique <sup>3</sup> and assuming that both the process disturbance and measurement noise follow Gaussians centered at 0 with variances of 0.003 and 0.0013 respectively, we derive that
 
-such that  \\(\hat { x } _ { k + 1 } = A \hat { x } _ { k } + B u _ { k } + G \hat { w } _ { k } , \quad \hat { y } _ { k } = C \hat { x } _ { k } + \hat { v } _ { k }​\\),
+\\[e_{T+1} = \begin{bmatrix} 0.4876 & 0.5112 \\\ 0.5215 & 0.4587 \end{bmatrix} e_T + \begin{bmatrix} 0.0301 & 0.0452 \\\ 0.0231 & 0.0621\end{bmatrix} \begin{bmatrix} W \\\ V \end{bmatrix}.\\]
 
-where \\(T​\\) is the current time, \\(x\\) is the population ratio, \\(y\\) is the GFP output, and \\(u\\) is the optimal light output duration. In addition, \\(w, v​\\) are the process disturbance noises and the measurement noise respectively,
-
-\\[Y _ { T - N } ^ { T } = \left[ y _ { T - N } ^ { T } , \dots , y _ { T } ^ { T } \right] ^ { T }​\\]
-
-is the vector containing the past \\(N​\\) inputs at time \\(T​\\) with the \\(U​\\) variant defined analagously, and \\(Q \succeq 0, R \succeq 0, P_{T-N|T-1} \succeq 0​\\) are the covariances of \\(w,v,x​\\) assumed to be symmetric and time invariant.
-
-The error dynamics of this model are as follows:
-
-\\(e_{t+1} = \sum_{i} Error_{i}e_{t} + D_{i} d\\). With the first term being the estimation error, and \\(D_{i}d\\) being the error introduced by disturbing the system during measurement.
-
-#### Definitions:
-
-\\[Error_i = MS_i F_e M^{-1},\\]
-
-\\[D_i = MS_i\begin{bmatrix} F_w & F_v \end{bmatrix} \begin{bmatrix} W \\\ V \end{bmatrix},\\]
-
-\\[M = \begin{bmatrix} A^N & g_T \\\ 0 & I\end{bmatrix},\\]
-
-\\[S_i = (I+H^{-1}\hat{K}^\top_i(\hat{K}_i H^{-1} \hat{K}_i^\top)^{-1})\hat{K}_i)^{-1} \cdot (-I + H^{-1}\hat{K}_i^\top (\hat{K}_iH^{-1}\hat{K}_i)^{-1}\hat{K}_i)H^{-1},\\]
-
-\\[H \approx \begin{bmatrix} 2 P^{-1} + 2ca^\top\cdot \mathrm{diag}(R^{-1})\cdot ca & 2ca^\top \cdot \mathrm{diag}(R^{-1}) \\\ 2 \cdot \mathrm{diag}(R^{-1}) \cdot ca & 2\mathrm{diag}(Q^{-1})+\mathrm{diag}(R^{-1}) \end{bmatrix},\\]
-
-\\[ca = \mathrm{diag}(C)\cdot a,\\]
-
-\\[c g = \operatorname { diag } ( C ) \cdot g,\\]
-
-\\[\overline{cb} = \mathrm{ diag } ( C ) \cdot \overline { b},\\]
-
-\\[\overline { b } = \begin{bmatrix} { 0 } & { 0 } & { \cdots } & { 0 } \\\ { B } & { 0 } & { \cdots } & { 0 } \\\ { A \cdot B } & { B } & { \cdots } & { 0 } \\\ { A ^ { 2 } \cdot B } & { A \cdot B } & { \cdots } & { 0 } \\\ { \vdots } & { } & { \ddots } & { } \\\ { A ^ { N - 2 }  \cdot B } & { A ^ { N - 3 } } \cdot { B } & \cdots &  { B } \end{bmatrix}\\]
-
-
-
-\\[\overline {g} = \begin{bmatrix} 0 &  0 & { \cdots } & { 0 } \\\ { G } & { 0 } & { \cdots } & { 0 } \\\ { A \cdot G } & { G } & { \cdots } & { 0 } \\\ { A ^ { 2 } \cdot G } & { A \cdot G } & { \cdots } & { 0 } \\\ { \vdots } & { } & { \ddots } & { } \\\ { A ^ { N - 2 } \cdot G } & { A ^ { N - 3 } \cdot G } & { \cdots } & { G } \end{bmatrix},\\]
-
-\\[g = \begin{bmatrix} { } & { \overline { g } } & { } & { } \\\ { A ^ { N - 1 } \cdot G } & { \cdots } & { G } \end{bmatrix},\\]
-
-\\[g_T = \begin{bmatrix} A^{N-1} \cdot G & \cdots & G \end{bmatrix},\\]
-
-\\[F_w  = \begin{bmatrix} 0 \\\ 2 \cdot \mathrm{diag}(Q^{-1}) \end{bmatrix},\\]
-
-\\[F_v = \begin{bmatrix} -ca^\top \cdot \mathrm{diag}(R^{-1}) \\\ -cg^\top \cdot \mathrm{diag}(R^{-1}) \end{bmatrix},\\]
-
-\\[F _ { e } = \begin{bmatrix} { 2 P ^ { - 1 } \cdot A } & { \left[ 2 P ^ { - 1 } \cdot G , 0 , \cdots , 0 \right] } \\\ { 0 } & { 0 } & { } \end{bmatrix},\\]
-
-\\[\overline { a } = \left[ \begin{array} { c } { I } \\\ { A } \\\ { A ^ { 2 } } \\\ { \vdots } \\\ { A ^ { N - 1 } } \end{array} \right]\\]
-
-\\[a = \left[ \begin{array} { c } { \overline { a } } \\\ { A ^ { N } } \end{array} \right]\\]
-
-\\(\hat{K}_i, \hat{k}_i\\) are the respective Lagrange multipliers and corresponding matrices.
-
-
+There is significant evidence that MHE is significantly better than Kalman filtering and other more traditional techniques, not only practically but also through these error dynamics. There is a critical plane of process disturbance and measurement noise distributions that acts as a boundary between stable and unstable systems, that is, ones that we can prove asymptotic stability of and ones that can be prove to be asymptotic instable. We did not determine this boundary because it requires extensive computation and is going to be inaccurate regardless given the linear model of our system. It is important to note that the derivation of error dynamics for MHE for complex systems such as our original network remains an active area of research.
 
 # Background Research
 ## Characterizing Gene Expression with Green and Red Light for CcaS-CcaR

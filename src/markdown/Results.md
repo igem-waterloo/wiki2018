@@ -171,5 +171,5 @@ http://parts.igem.org/wiki/images/1/13/T--Waterloo-Results-Half_Green_Graph.png
 
 Place Chart here
 
-In conclusion, growth of JT2 with CcaS/R is significantly slowed under red light in comparison two its growth under full or medium green light. Interestingly JT2 with CcaS/R has a faster growth rate in medium green light compared to full green light. This may indicate that metE imposes a metabolic load on our cells if overproduced. However, further experiments need to be preformed to fully confirm that this is the case. We will preform another growth curve experiment at a wider range of green light ratios in the next few days to get a better idea on why see this. 
+In conclusion, growth of JT2 with CcaS/R is significantly slowed under red light in comparison to its growth under full or medium green light. Interestingly JT2 in this experiment  has a faster growth rate in medium green light compared to full green light. This may indicate that metE imposes a metabolic load on our cells if overproduced. However, further experiments need to be preformed to fully confirm that this is the case. We will preform another growth curve experiment at a wider range of green light ratios in the next few days to get a better idea on why see this. 
 

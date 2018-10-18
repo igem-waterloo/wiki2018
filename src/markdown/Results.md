@@ -178,4 +178,4 @@ In conclusion, growth of JT2 with CcaS/R is significantly slowed under red light
 
 ### What is the doubling time of JT2+CcaS/R and can we control it? 
 
-refer to our lab book for experiments regarding the doubling time of DH5alpha. Dh5alpha will be used as our competitior strain in co-culture experiments. These will be run in the next few days. Look forward to seeing our rsults at the jamb!
+Refer to our lab book for experiments regarding the doubling time of DH5alpha. DH5alpha will be used as our competitior strain in co-culture experiments. These co-culture experiments will be run in the next few days. Look forward to seeing our results at the Jamb!

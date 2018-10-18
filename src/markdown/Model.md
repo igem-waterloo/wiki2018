@@ -49,7 +49,7 @@ MHE works by adjusting initial conditions and parameters within a model to align
 
 ## Error Dynamics of a Linearization of Our Model
 
-For a control system such as ours, the error dynamics are critical to derive. In order to make the dynamics feasible, we only consider the error dynamics of controlling a single population under this linear model:
+For a control system such as ours, the error dynamics are critical to derive. In order to make the dynamics feasible to compute, we only consider the error dynamics of controlling a single population under this linear model:
 
 \\[x_{k+1} = x_k + 0.025u_k + 0.05w_k,\\]
 

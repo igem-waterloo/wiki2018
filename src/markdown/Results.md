@@ -142,7 +142,7 @@ In order to automate experiments and make the designed system more useable, the 
 
 The co-culture we used for our proof of concept consists of two populations; slow growing DH5alpha with GFP and controllable JT2 with CcaS/R. Before mixing these two populations together we needed to determine how they each behave on their own.
 
-## What is the doubling time of JT2+CcaS/R and can we control it? ##
+### What is the doubling time of JT2+CcaS/R and can we control it? 
 
 This experiment happened over 7.3 hours and aimed to determine the doubling time of JT2 + CcaS/R under full green light, no green light and medium green light in duplicates.
 

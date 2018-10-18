@@ -18,7 +18,7 @@ ___________________________
 
 **McMaster iGEM** 
 
-<img align="right" src="http://parts.igem.org/wiki/images/4/4b/T--Waterloo-Collaborations_mGEM.jpg">
+<img align="right" width="40%" src="http://parts.igem.org/wiki/images/4/4b/T--Waterloo-Collaborations_mGEM.jpg">
 
 We gave the McMaster iGEM team *E. coli* DH5-alpha cells so that they could meet [requirement #2 for successful completion of the interlab study](http://2018.igem.org/Measurement/InterLab).
 

@@ -6,7 +6,7 @@
 **Plasmids**:
 - [pSR43.6r](https://www.addgene.org/63197/) (CcaS, its photoreceptor, p15A origin of replication)
 - [pSR58.6](https://www.addgene.org/63176/) (CcaR, sfGFP under the CcaR promoter, ColeI origin of replication)
-  - Note that we made 2 versions of this strain. One contains both these plasmids, unaltered, and was used for characterization 
+  - Note that we made two versions of this strain. One contains both these plasmids, unaltered, and was used for characterization 
  experiments. We cut GFP out of pSR58.6 for the second version of this strain, and used it for non-characterization experiments.   
  
 **Antibiotic Resistance(s)**: Kanamycin, Spectinomycin, Chloramphenicol 

@@ -1,6 +1,6 @@
 # Automation: “Robot” Experiments
 
-Given the complex nature and high cost of flow cytometers, the team began looking into lower-cost solutions to measuring cell fluorescence that could be built in house and integrated with the turbidostat. The end goal of this was to create a device that could be run off of a Raspberry Pi or Arduino that could simultaneously control the turbidostat (which is already controlled by an Arduino). The "robot" designed below was never fully integrated with the rest of the project hardware, but an optimal design for a fluorescence-measuring design was determined. Therefore, such integration could be reasonably implemented in the future.
+Given the complex nature and high cost of flow cytometers, the team began looking into lower-cost solutions to measure cell fluorescence that could be built in-house and integrated with the turbidostat. The end goal of this was to create a device that could be run off of a Raspberry Pi or an Arduino that could simultaneously control the turbidostat (which is already controlled by an Arduino). The "robot" designed below was never fully integrated with the rest of the project hardware, but an optimal design for a fluorescence-measuring design was determined. Therefore, such an integration could be reasonably implemented in the future.
 
 ## Initial Experiment
 Having determined the utility of an automated sampling system, the team first set out to confirm whether or not cells with different levels of GFP expressed could be visually distinguished when exposed to a ~488 nm light source.  To this end, a light source with a peak emission at 488 nm and a light filter capable of letting green light but not blue light pass through were borrowed from the Reed lab at the University of Waterloo.
@@ -21,7 +21,7 @@ A box was designed using AutoDesk Inventor (a 3D computer aided design software)
 The design was initially tested using a cardboard box with holes cut in it as shown in the CAD drawing.  We attempted to measurement the fluorescence of a sample tube of cells in the box with a photodiode.  The box prevented ambient light from entering the system and kept the parts in place as desired, however we found we could not get consistent readings when we repeatedly measured the same sample; slight fluctuations in sample and LED position together with possible photodiode malfunction were responsible for these inconsistencies. As a result of this experiment, we decided to try using a camera instead.  We also found that our initial placements of the components was not optimal and concluded that we must perform an experiment to optimize the distances and placements of components without the box.
 
 ## Quantification Test with Camera
-After the unclear results of the test with the original box apparatus, it was determined that the test using the camera should be redone in a more quantitative manner. Similarly to the initial experiment, E. coli (this time JT2 containing GFP under the CcaR promoter) were grown up to an OD of ~0.6 in complete M9. Two samples were grown under green light, and two under red light.
+After the unclear results of the test with the original box apparatus, it was determined that the test using the camera should be repeated in a more quantitative manner. Similarly to the initial experiment, E. coli (this time JT2 containing GFP under the CcaR promoter) were grown up to an OD of ~0.6 in complete M9. Two samples were grown under green light, and two under red light.
 
 The tubes were arranged in a row in front of an iPhone camera, which our light filter in front of it. The tubes were placed in two alternate arrangements, and a movie was taken of the blue LED being passed behind them. See below for one of the movies taken.
 
@@ -68,7 +68,7 @@ The fluorescence values are a simple average between the values for the duplicat
 
 The “robot” used to measure fluorescence, now no longer housed in a box, was used to attempt to estimate the ratios of different populations in a co-culture. The sample tube contained both DH5α containing GFP and empty DH5α.
 
-The setup as a whole consisted of a camera with our filter in front of it, a sample tube 15 cm away from this camera, and our blue LED (which was 10 cm away from our sample). The setup looked as follows:
+The setup as a whole consisted of a camera with our filter in front of it, a sample tube 15 cm away from this camera, and our blue LED (which was 10 cm away from our sample). This is a diagram representative of the setup:
 
 ![alt text](http://2018.igem.org/wiki/images/f/f8/T--Waterloo--robotAttempt.jpg)
 

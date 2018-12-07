@@ -303,7 +303,7 @@ _Pouring and running your gel:_
 * Once the cells have reached an OD of > 0.6 re-inoculate 100ul of culture into 35mL of M9 drop out media (-methionine)
 * Place cells into the turbidostat with a stir bar
 *Incubate at 35 degrees with stirring under green light for 3h
-NOTE: The intensity of green light should be the same intensity you want to use for the growth curve)
+* NOTE: The intensity of green light should be the same intensity you want to use for the growth curve)
 
 ### 3. Growth Rate Measurement 
 * After 3h of adjusting the cells to the green light begin taking OD 600 measurements every 20 min until the cells reach an OD of ~0.8

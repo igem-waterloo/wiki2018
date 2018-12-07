@@ -295,17 +295,17 @@ _Pouring and running your gel:_
 
 ## Growth Curves
 
-#1. Inoculating cells
-* Inoculate cells into LB medium with appropriate antibiotics for selection
-* The next morning re-inoculate from the overnight culture into M9 media with the appropriate antibiotics
+#Inoculating cells
+1. Inoculate cells into LB medium with appropriate antibiotics for selection
+2. The next morning re-inoculate from the overnight culture into M9 media with the appropriate antibiotics
 
-#2. Adjusting Cells to Light
-* Once the cells have reached an OD of > 0.6 re-inoculate 100ul of culture into 35mL of M9 drop out media (-methionine)
-* Place cells into the turbidostat with a stir bar
-* Incubate at 35 degrees with stirring under green light for 3h
+#Adjusting Cells to Light
+3. Once the cells have reached an OD of > 0.6 re-inoculate 100ul of culture into 35mL of M9 drop out media (-methionine)
+4. Place cells into the turbidostat with a stir bar
+5. Incubate at 35 degrees with stirring under green light for 3h
 NOTE: The intensity of green light should be the same intensity you want to use for the growth curve)
 
-#3. Growth Rate Measurement 
-* After 3h of adjusting the cells to the green light begin taking OD 600 measurements every 20 min until the cells reach an OD of ~0.8
-* Plot the ln(OD 600 values) vs Time
-* Calculate the growth rate by taking the slope of the linear portion of the curve
+#Growth Rate Measurement 
+6. After 3h of adjusting the cells to the green light begin taking OD 600 measurements every 20 min until the cells reach an OD of ~0.8
+7. Plot the ln(OD 600 values) vs Time
+8. Calculate the growth rate by taking the slope of the linear portion of the curve

@@ -104,13 +104,14 @@ In order to test the first two questions we conducted an experiment. JT2 cells c
 We have had less than a year to work on this project. We have so many more things we would like to do. Here, we describe the future directions our team hopes to take! 
 
 ### Proof of Concept: Set and Go
+
 **Goal:** Test that our system can maintain a co-culture once set up, without constant manipulation.
 
 **Progress:** Engineered a JT2 and DH5alpha GFP competitor strain. Determined the growth rate of both populations. competitor strain (DH5alpha GFP). Determined growth rates of both strains
 
 **Next Steps:** Set up system to match growth rate and monitor co-culture stability.
 
-###Proof of Concept: Set and Monitor 
+### Proof of Concept: Set and Monitor 
 
 **Goal:** Test that our system can sustain a co-culture with constant manipulation.
 

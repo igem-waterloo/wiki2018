@@ -103,9 +103,32 @@ In order to test the first two questions we conducted an experiment. JT2 cells c
 ## Future Directions
 We have had less than a year to work on this project. We have so many more things we would like to do. Here, we describe the future directions our team hopes to take! 
 
-* We would like to continue our experiments looking into the range of control we can have on JT2’s doubling time by varying its exposure to green light. We plan to do this by creating more growth curves for JT2 under a wider variety of green light ratios 
-* Secondly we would like to try and make a stable co-culture by modifying the growth rate of JT2 to match the growth rate of another e.coli strain. We hypothesis that two populations with similar growth rates will have a stable co-culture. However we would also like to test this theory by creating a co-culture with cells we already know have a similar doubling time.
-* We would also like to try and create a stable co-culture between yest and e.coli. To do this we will have to optimize our drop out media to also support yeast.
+### Proof of Concept: Set and Go
+**Goal:** Test that our system can maintain a co-culture once set up, without constant manipulation.
+
+**Progress:** Engineered a JT2 and DH5alpha GFP competitor strain. Determined the growth rate of both populations. competitor strain (DH5alpha GFP). Determined growth rates of both strains
+
+**Next Steps:** Set up system to match growth rate and monitor co-culture stability.
+
+###Proof of Concept: Set and Monitor 
+
+**Goal:** Test that our system can sustain a co-culture with constant manipulation.
+
+**Progress:** Same  as previous.
+
+**Next Steps:** Set up Co-culture, monitor, and implement changes as needed.
+
+
+### Dual Light Control 
+
+**Goal:** Control two populations in a co-culture with separate optogenetic systems.
+
+**Progress:** Looked into various blue light systems, including Opto-T7 and pDawn. Obtained and started cloning with pDawn.
+
+**Next Steps:** Characterize and implement the pDawn system.
+
+
+
 
 ## References
 

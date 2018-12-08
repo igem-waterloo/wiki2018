@@ -163,7 +163,7 @@ Below is a graph showing the growth rate of JT2 Ccas/R under three different int
 
 <center> <img src="http://parts.igem.org/wiki/images/5/58/Growth-rate-JT2-dec7.png"> </center>
 
-Each Poit represents the growth rate of a single tube of JT2 Ccas/R under 24%, 48.8% OR 100% green light. Growth rate was measured in duplicates for each light intensity. 
+Each Point represents the growth rate of a single tube of JT2 Ccas/R under 24%, 48.8% OR 100% green light. Growth rate was measured in duplicates for each light intensity. 
 
 #### GFP Expression in response to green light
 

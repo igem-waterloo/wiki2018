@@ -154,9 +154,11 @@ In order to replicate the experiments from this paper we had to develop a new pr
 
 Below is a graph showing the growth rate of JT2 Ccas/R under three different intensities of green light, 24%, 48.8% and 100%. Increased green light exposure resulted in increased growth rate. This is what we expected to see based on the results from the paper.  
 
-##### Note on light set up
+##### Note on light set up:
 **100% green light:** green light is on 100% of the time during the span of the experiment 
+
 **48.8% green light:** green light is on 48.8% of the time during the span of the experiment
+
 **24% green light:** green light is on 24% of the time during the span of the experiment 
 
 <center> <img src="http://parts.igem.org/wiki/images/5/58/Growth-rate-JT2-dec7.png"> </center>
@@ -181,6 +183,8 @@ When comparing doubling times of replicates done on different days a significant
 
 **Solution** 
 In order to compensate for this day to day variation we will have to implement our Specific Model Predictive Controller. This model uses an optimization technique known as Moving Horizon Estimation (MHE). The control algorithm will take into account the day-to-day variability and adjust accordingly in order to still perform optimally. 
+
+
 
 
 

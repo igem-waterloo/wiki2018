@@ -140,43 +140,49 @@ In order to automate experiments and make the designed system more useable, the 
 
 # Single Population Behaviour Experiments
 
-The co-culture we used for our proof of concept consists of two populations: slow growing DH5alpha with GFP and light-controllable JT2 with CcaS/R. Before mixing these two populations together, we needed to determine how they each behave on their own.
+For our proof of concept, we wanted to use two populations of E. coli: slow growing DH5alpha with a GFP marker and light controllable JT2 with CcaS/R. Before creating a co-culture with these two populations, we needed to determine how they behave on their own.
 
-### What is the doubling time of JT2+CcaS/R and can we control it? 
+## Light Control Experiments:
 
-This experiment happened over 7.3 hours and aimed to determine the doubling time of JT2 with CcaS/R under full green light, no green light, and medium green light in duplicates.
+Before trying to create a stable co-culture, we had to confirm that we could control the growth of a single population of E. coli. This was done by replicating the experiments from the paper. 
 
-__NOTE: Light Set up__
+In order to replicate the experiments from this paper we had to develop a new protocol that would work for the equipment in our lab. This took many trials and troubleshooting until we developed our final protocol (please refer to our experiments page for more information on this)
 
-**Full green:** indicates the green light was on 100% of the 7.3 hour run.
-**No green**  indicates that the green light was never on.
-**Medium green:** indicates green light was on 50% of the 7.3 hour run
-_Red light was on for 100% of the 7.3h run for all samples_
+### Results: 
 
-For each green light ratio, two tubes of M9 (without methionine) were inoculated with JT2 cells with CcaS/R from an overnight culture in LB. All tubes were then grown in the turbidostat under one of the three green light conditions for 7.3 hours. 
+#### JT2 Ccas/R Growth rate in Response to Changes in Green Light
 
-<center><img src="http://2018.igem.org/wiki/images/a/aa/T--Waterloo--Lab-turb3.jpeg"></center>
+Below is a graph showing the growth rate of JT2 Ccas/R under three different intensities of green light, 24%, 48.8% and 100%. Increased green light exposure resulted in increased growth rate. This is what we expected to see based on the results from the paper.  
 
-The first three hours of the run were dedicated to adjusting the cultures to their designated light condition. This was done to prevent any noise from previous growing environment of the cells (such as light contamination) [1] from effecting our measurements.
+##### Note on light set up
+**100% green light:** green light is on 100% of the time during the span of the experiment 
+**48.8% green light:** green light is on 48.8% of the time during the span of the experiment
+**24% green light:** green light is on 24% of the time during the span of the experiment 
 
-Once three hours had passed we began to monitor our cultures using OD<sub>600</sub> measurements in intervals of 20 min for 4.3 hours. Below outlines those measurements:
+<center> <img src="http://parts.igem.org/wiki/images/5/58/Growth-rate-JT2-dec7.png"> </center>
 
-<center><img src="http://2018.igem.org/wiki/images/0/02/T--Waterloo--Lab-chart.png"></center>
+Each Poit represents the growth rate of a single tube of JT2 Ccas/R under 24%, 48.8% OR 100% green light. Growth rate was measured in duplicates for each light intensity. 
+
+#### GFP Expression in response to green light
+
+We wanted to dig a little further into the cell’s response to changes in light intensity. To do this we measured the level of GFP expression for each population under different intensities of green light (using a flow cytometer). Increased exposure to green light resulted in increased GFP expression. These correlates to increased CcaS/R activity and MetE expression.
+
+**Note:** GFP is used as a proxy for MetE expression because they are both under a CcaR promoter in all characterization experiments. 
+
+<center> <img src="http://parts.igem.org/wiki/images/e/e3/Waterloo-GFP-Graph-Dec-7.png"> </center>
+
+### Limitations of Our System
+
+When comparing doubling times of replicates done on different days a significant amount of variation is seen between samples. However, when comparing replicates on the same day they match well. 
+
+<center> <img src="http://parts.igem.org/wiki/images/3/30/Variation-dec7.png"> </center>
+
+<center> <img src="http://parts.igem.org/wiki/images/8/84/Chart-dec7.png"> </center>
+
+**Solution** 
+In order to compensate for this day to day variation we will have to implement our Specific Model Predictive Controller. This model uses an optimization technique known as Moving Horizon Estimation (MHE). The control algorithm will take into account the day-to-day variability and adjust accordingly in order to still perform optimally. 
 
 
-The doubling time of each population was determined by plotting log OD 600 values against time in minutes and taking the slope of the linear portion of the curve. Here are the growth curves for each of the samples and the doubling times we calculated from them:
-
-<center><img src="http://parts.igem.org/wiki/images/3/34/T--Waterloo-Results-CcaSR_Full_green_graph.png" align="middle"></center>
-
-<center><img src="http://parts.igem.org/wiki/images/3/36/T--Waterloo-Results-CcaSR_Full_red_graph.png" align="middle"></center>
-
-<center><img src="http://parts.igem.org/wiki/images/1/13/T--Waterloo-Results-Half_Green_Graph.png" align="middle"></center>
-
-<center><img src="http://2018.igem.org/wiki/images/5/5e/T--Waterloo--doubling-time_JT2.png" align="middle"></center>
-
-In conclusion, growth of JT2 with CcaS/R is significantly slowed under red light in comparison to its growth under full or medium green light. Interestingly, JT2 in this experiment  has a faster growth rate in medium green light compared to full green light. This may indicate that metE imposes a metabolic load on our cells if overproduced. However, further experiments need to be preformed to fully confirm that this is the case. We will preform another growth curve experiment at a wider range of green light ratios in the next few days to get a better idea on why see this. 
 
 
-### What is the doubling time of our DH5alpha? 
 
-Refer to our lab book for experiments regarding the doubling time of DH5alpha. DH5alpha will be used as our competitior strain in co-culture experiments. These co-culture experiments will be run in the next few days. Look forward to seeing our results at the Jamb!
